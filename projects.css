@@ -1,0 +1,54 @@
+body {
+    background-color: #36454F;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .navbar {
+    background-color: #708090;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .topnav a:hover {
+    background-color: #C0C0C0;
+    color: black;
+  
+  }
+  
+  .flexstart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project {
+    display: flex;
+    flex-direction: column;
+    border: solid black 5px;
+    max-width: 50%;
+    align-items: center;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
+    border: solid red 5px;
+    margin: 1%;
+    min-width: 30%;
+    min-height: 30%;
+  }
+
+  .tab {
+    border: solid blue 5px;
+    margin: 5%;
+    min-height: 30%;
+    min-width: 20%;
+  }
