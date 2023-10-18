@@ -1,0 +1,49 @@
+body {
+    background-color: #36454F;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .navbar {
+    background-color: #708090;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .topnav a:hover {
+    background-color: #C0C0C0;
+    color: black;
+  
+  }
+
+  .flexstart {
+    display: flex;
+  }
+
+  .weektab {
+    border: yellow solid 5px;
+    min-width: 50%;
+    }
+
+  .week {
+    border: solid green 5px;
+    min-width: 50%;
+  }
+
+  .weekcontent {
+    display: flex;
+    flex-direction: column;
+    border: solid yellow 5px;
+    margin-left: 1%;
+  }
+
+  .daycontent {
+    border: solid green 5px;
+  }

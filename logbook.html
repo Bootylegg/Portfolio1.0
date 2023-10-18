@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logbook</title>
+    <link rel="stylesheet" href="logbook.css">
+</head>
+<body>
+    <div class="navbar">
+        <nav class="topnav">
+         <div class="home"> <a href="index.html">Home</a></div>
+         <div class="projects"><a href="projects.html">Projects</a></div>
+         <div class="Logbook"><a class="logbook" href="logbook.html">Logbook</a></div>
+        </nav>
+     </div>
+ <div class="flexstart">
+    <div class="weektab">
+        <div class="week">
+            <button onClick="week42()" id="week43">
+                <h2>Week 42</h2>
+            </button>
+        </div>
+        <div  onClick="week43()" class="week">
+            <button>
+                <h2>Week 43</h2>
+            </button>
+        </div>
+        <div class="week">
+            <button onClick="week44()">
+                <h2>Week 44</h2>
+            </button>
+        </div>
+        <div class="week">
+            <button onClick="week45()" >
+                <h2>Week 45</h2>
+            </button>
+        </div>
+        <div class="week">
+            <button onClick="week46()">
+                <h2>Week 46</h2>
+            </button>
+        </div>
+    </div>
+    <div class="weekcontent">
+        <div class="daycontent">
+            <h2>Maandag</h2>
+            <p id="logplanma"></p>
+            <p id="logdonema"></p>
+        </div>
+        <div class="daycontent">
+            <h2>Dinsdag</h2>
+            <p id="logplandi"></p>
+            <p id="logdonedi"></p>
+        </div>
+        <div class="daycontent">
+            <h2>Woensdag</h2>
+            <p id="logplanwo"></p>
+            <p id="logdonewo"></p>
+        </div>
+        <div class="daycontent">
+            <h2>Donderdag</h2>
+            <p id="logplando"></p>
+            <p id="logdonedo"></p>
+        </div>
+        <div class="daycontent">
+            <h2>Vrijdag</h2>
+            <p id="logplanvr"></p>
+            <p id="logdonevr"></p>
+        </div>
+    </div>
+ </div>
+</body>
+<script src="logbook.js"></script>
+</html>
