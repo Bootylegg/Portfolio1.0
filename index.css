@@ -35,5 +35,14 @@ body {
 }
 
 .header {
-  max-width: 50%;
+  max-width: 100%;
+}
+
+.logbook {
+  align-self: flex-end;
+}
+
+#pcpart {
+  text-decoration: none;
+  color: black;
 }

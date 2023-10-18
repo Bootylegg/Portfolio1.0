@@ -4,22 +4,22 @@
   <link rel="stylesheet" href="index.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="dist/index.js" type="module"></script>
-  <title>typescript</title>
-  <script type="module" src="/dist/index.js"></script>
+  <title>My site</title>
+  <script src="index.js"></script>
 </head>
 <body>
   <div class="navbar">
     <nav class="topnav">
      <div class="home"> <a href="index.html">Home</a></div>
      <div class="projects"><a href="projects.html">Projects</a></div>
-     <div class="Logbook"><a href="logbook.html"></a></div>
-     <div class="change"><button onClick="header()">Click Me!</button</div>
+     <div class="Logbook"><a href="logbook.html">Logbook</a></div>
+     <div class="change"><a onClick="changeTitle(),showAlert(),changeScr(),picker()"></a></div>
     </nav>
  </div>
  <div class="flexstart">
-  <h1 id="header" class="header">Booty's site</h1>
-    <img class="carpic" src="pics/image.png" alt="911">
+  <h1 id="header" class="header">Welcome to my site</h1>
+    <img id="mainimg" class="carpic" src="pics/temp.png" alt="911">
+    <a id="pcpart" target="_blank" href="https://pcpartpicker.com/user/Bootylegg/saved/#view=Hcsdqs"><p id="parts"></p></a>
  </div>
 </body>
 <script src="index"></script>

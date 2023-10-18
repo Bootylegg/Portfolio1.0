@@ -30,25 +30,31 @@ body {
   }
 
   .project {
-    display: flex;
-    flex-direction: column;
-    border: solid black 5px;
-    max-width: 50%;
-    align-items: center;
+    min-width: 90%;
   }
 
   .row {
     display: flex;
     flex-direction: row;
-    border: solid red 5px;
     margin: 1%;
     min-width: 30%;
-    min-height: 30%;
+    min-height: 50%;
   }
 
   .tab {
-    border: solid blue 5px;
+    text-align: center;
+    border-radius: 5px;
     margin: 5%;
     min-height: 30%;
     min-width: 20%;
+    background-color: #5b5e61;
+  }
+
+  .square {
+    max-width: 90%;
+  }
+
+  .projectname {
+    text-decoration: none;
+    color: black;
   }
