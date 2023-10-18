@@ -10,66 +10,79 @@ let planvr = document.getElementById("logplanvr");
 let donevr = document.getElementById("logdonevr");
 
 function week42() {
-    planma.innerHTML = "I am planning to do this today";
-    donema.innerHTML = "this is what I did today";
-    plandi.innerHTML = "I am planning to do this today";
-    donedi.innerHTML = "this is what I did today";
-    planwo.innerHTML = "I am planning to do this today";
-    donewo.innerHTML = "this is what I did today";
-    plando.innerHTML = "I am planning to do this today";
-    donedo.innerHTML = "this is what I did today";
-    planvr.innerHTML = "I am planning to do this today";
-    donevr.innerHTML = "this is what I did today";
+    planma.innerHTML = "-";
+    donema.innerHTML = "-";
+    plandi.innerHTML = "-";
+    donedi.innerHTML = "-";
+    planwo.innerHTML = "- Logboek maken met js van logboek beginnen";
+    donewo.innerHTML = "- Logboek gemaakt en js ook al af";
+    plando.innerHTML = "-";
+    donedo.innerHTML = "-";
+    planvr.innerHTML = "-";
+    donevr.innerHTML = "-";
 }
 
 function week43() {
-    planma.innerHTML = "Im Different";
-    donema.innerHTML = "this is what I did today";
-    plandi.innerHTML = "I am planning to do this today";
-    donedi.innerHTML = "this is what I did today";
-    planwo.innerHTML = "I am planning to do this today";
-    donewo.innerHTML = "this is what I did today";
-    plando.innerHTML = "I am planning to do this today";
-    donedo.innerHTML = "this is what I did today";
-    planvr.innerHTML = "I am planning to do this today";
-    donevr.innerHTML = "this is what I did today";
+    planma.innerHTML = "- geen zorgen dit veranderd dingen";
+    donema.innerHTML = "-";
+    plandi.innerHTML = "-";
+    donedi.innerHTML = "-";
+    planwo.innerHTML = "-";
+    donewo.innerHTML = "-";
+    plando.innerHTML = "-";
+    donedo.innerHTML = "-";
+    planvr.innerHTML = "-";
+    donevr.innerHTML = "-";
 }
 
 function week44() {
-    planma.innerHTML = "Im Different";
-    donema.innerHTML = "this is what I did today";
-    plandi.innerHTML = "I am planning to do this today";
-    donedi.innerHTML = "this is what I did today";
-    planwo.innerHTML = "I am planning to do this today";
-    donewo.innerHTML = "this is what I did today";
-    plando.innerHTML = "I am planning to do this today";
-    donedo.innerHTML = "this is what I did today";
-    planvr.innerHTML = "I am planning to do this today";
-    donevr.innerHTML = "this is what I did today";
+    planma.innerHTML = "- Hier ook";
+    donema.innerHTML = "-";
+    plandi.innerHTML = "-";
+    donedi.innerHTML = "-";
+    planwo.innerHTML = "-";
+    donewo.innerHTML = "-";
+    plando.innerHTML = "-";
+    donedo.innerHTML = "-";
+    planvr.innerHTML = "-";
+    donevr.innerHTML = "-";
 }
 
 function week45() {
-    planma.innerHTML = "Im Different";
-    donema.innerHTML = "this is what I did today";
-    plandi.innerHTML = "I am planning to do this today";
-    donedi.innerHTML = "this is what I did today";
-    planwo.innerHTML = "I am planning to do this today";
-    donewo.innerHTML = "this is what I did today";
-    plando.innerHTML = "I am planning to do this today";
-    donedo.innerHTML = "this is what I did today";
-    planvr.innerHTML = "I am planning to do this today";
-    donevr.innerHTML = "this is what I did today";
+    planma.innerHTML = "- En hier ook";
+    donema.innerHTML = "-";
+    plandi.innerHTML = "-";
+    donedi.innerHTML = "-";
+    planwo.innerHTML = "-";
+    donewo.innerHTML = "-";
+    plando.innerHTML = "-";
+    donedo.innerHTML = "-";
+    planvr.innerHTML = "-";
+    donevr.innerHTML = "-";
 }
 
 function week46() {
-    planma.innerHTML = "Im Different";
-    donema.innerHTML = "this is what I did today";
-    plandi.innerHTML = "I am planning to do this today";
-    donedi.innerHTML = "this is what I did today";
-    planwo.innerHTML = "I am planning to do this today";
-    donewo.innerHTML = "this is what I did today";
-    plando.innerHTML = "I am planning to do this today";
-    donedo.innerHTML = "this is what I did today";
-    planvr.innerHTML = "I am planning to do this today";
-    donevr.innerHTML = "this is what I did today";
+    planma.innerHTML = "- en hier zeker ook";
+    donema.innerHTML = "-";
+    plandi.innerHTML = "-";
+    donedi.innerHTML = "-";
+    planwo.innerHTML = "-";
+    donewo.innerHTML = "-";
+    plando.innerHTML = "-";
+    donedo.innerHTML = "-";
+    planvr.innerHTML = "-";
+    donevr.innerHTML = "-";
+}
+
+function week47() {
+    planma.innerHTML = "- en toevallig hier zeker ook";
+    donema.innerHTML = "-";
+    plandi.innerHTML = "-";
+    donedi.innerHTML = "-";
+    planwo.innerHTML = "-";
+    donewo.innerHTML = "-";
+    plando.innerHTML = "-";
+    donedo.innerHTML = "-";
+    planvr.innerHTML = "-";
+    donevr.innerHTML = "-";
 }

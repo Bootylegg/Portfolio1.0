@@ -28,22 +28,37 @@ body {
   }
 
   .weektab {
-    border: yellow solid 5px;
-    min-width: 50%;
+    background-color: #5b5e61;
+    border-radius: 5px;
+    min-width: 30%;
+    margin-top: 1%;
     }
 
   .week {
-    border: solid green 5px;
     min-width: 50%;
   }
 
   .weekcontent {
     display: flex;
     flex-direction: column;
-    border: solid yellow 5px;
     margin-left: 1%;
+    min-width: 60%;
+    background-color: #5b5e61;
+    border-radius: 5px;
+    margin-top: 1%;
   }
 
   .daycontent {
-    border: solid green 5px;
+    margin: 0.5%;
+    border: solid black;
+    background-color: #899499;
+    border-radius: 5px;
+  }
+
+  .daytext {
+    margin: 0.5%;
+  }
+
+  .weekbutton {
+
   }
