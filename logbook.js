@@ -15,15 +15,15 @@ function week42() {
     plandi.innerHTML = "-";
     donedi.innerHTML = "-";
     planwo.innerHTML = "- Logboek maken met js van logboek beginnen";
-    donewo.innerHTML = "- Logboek gemaakt en js ook al af";
-    plando.innerHTML = "-";
-    donedo.innerHTML = "-";
+    donewo.innerHTML = "- Logboek is bijna af en js al af";
+    plando.innerHTML = "- Laaste dingen van logboek maken";
+    donedo.innerHTML = "- Logboek is bijna af alleen nog iets meer responsive maken";
     planvr.innerHTML = "-";
     donevr.innerHTML = "-";
 }
 
 function week43() {
-    planma.innerHTML = "- geen zorgen dit veranderd dingen";
+    planma.innerHTML = "- week43";
     donema.innerHTML = "-";
     plandi.innerHTML = "-";
     donedi.innerHTML = "-";
@@ -36,7 +36,7 @@ function week43() {
 }
 
 function week44() {
-    planma.innerHTML = "- Hier ook";
+    planma.innerHTML = "- week44";
     donema.innerHTML = "-";
     plandi.innerHTML = "-";
     donedi.innerHTML = "-";
@@ -49,7 +49,7 @@ function week44() {
 }
 
 function week45() {
-    planma.innerHTML = "- En hier ook";
+    planma.innerHTML = "- week45";
     donema.innerHTML = "-";
     plandi.innerHTML = "-";
     donedi.innerHTML = "-";
@@ -62,7 +62,7 @@ function week45() {
 }
 
 function week46() {
-    planma.innerHTML = "- en hier zeker ook";
+    planma.innerHTML = "- week46";
     donema.innerHTML = "-";
     plandi.innerHTML = "-";
     donedi.innerHTML = "-";
@@ -75,7 +75,124 @@ function week46() {
 }
 
 function week47() {
-    planma.innerHTML = "- en toevallig hier zeker ook";
+    planma.innerHTML = "- week47";
+    donema.innerHTML = "-";
+    plandi.innerHTML = "-";
+    donedi.innerHTML = "-";
+    planwo.innerHTML = "-";
+    donewo.innerHTML = "-";
+    plando.innerHTML = "-";
+    donedo.innerHTML = "-";
+    planvr.innerHTML = "-";
+    donevr.innerHTML = "-";
+}
+
+function week48() {
+    planma.innerHTML = "- week48";
+    donema.innerHTML = "-";
+    plandi.innerHTML = "-";
+    donedi.innerHTML = "-";
+    planwo.innerHTML = "-";
+    donewo.innerHTML = "-";
+    plando.innerHTML = "-";
+    donedo.innerHTML = "-";
+    planvr.innerHTML = "-";
+    donevr.innerHTML = "-";
+}
+
+function week49() {
+    planma.innerHTML = "- week49";
+    donema.innerHTML = "-";
+    plandi.innerHTML = "-";
+    donedi.innerHTML = "-";
+    planwo.innerHTML = "-";
+    donewo.innerHTML = "-";
+    plando.innerHTML = "-";
+    donedo.innerHTML = "-";
+    planvr.innerHTML = "-";
+    donevr.innerHTML = "-";
+}
+
+function week50() {
+    planma.innerHTML = "- week50";
+    donema.innerHTML = "-";
+    plandi.innerHTML = "-";
+    donedi.innerHTML = "-";
+    planwo.innerHTML = "-";
+    donewo.innerHTML = "-";
+    plando.innerHTML = "-";
+    donedo.innerHTML = "-";
+    planvr.innerHTML = "-";
+    donevr.innerHTML = "-";
+}
+
+function week51() {
+    planma.innerHTML = "- week51";
+    donema.innerHTML = "-";
+    plandi.innerHTML = "-";
+    donedi.innerHTML = "-";
+    planwo.innerHTML = "-";
+    donewo.innerHTML = "-";
+    plando.innerHTML = "-";
+    donedo.innerHTML = "-";
+    planvr.innerHTML = "-";
+    donevr.innerHTML = "-";
+}
+
+function week52() {
+    planma.innerHTML = "- week52";
+    donema.innerHTML = "-";
+    plandi.innerHTML = "-";
+    donedi.innerHTML = "-";
+    planwo.innerHTML = "-";
+    donewo.innerHTML = "-";
+    plando.innerHTML = "-";
+    donedo.innerHTML = "-";
+    planvr.innerHTML = "-";
+    donevr.innerHTML = "-";
+}
+
+function week01() {
+    planma.innerHTML = "- week01";
+    donema.innerHTML = "-";
+    plandi.innerHTML = "-";
+    donedi.innerHTML = "-";
+    planwo.innerHTML = "-";
+    donewo.innerHTML = "-";
+    plando.innerHTML = "-";
+    donedo.innerHTML = "-";
+    planvr.innerHTML = "-";
+    donevr.innerHTML = "-";
+}
+
+function week02() {
+    planma.innerHTML = "- week02";
+    donema.innerHTML = "-";
+    plandi.innerHTML = "-";
+    donedi.innerHTML = "-";
+    planwo.innerHTML = "-";
+    donewo.innerHTML = "-";
+    plando.innerHTML = "-";
+    donedo.innerHTML = "-";
+    planvr.innerHTML = "-";
+    donevr.innerHTML = "-";
+}
+
+function week03() {
+    planma.innerHTML = "- week03";
+    donema.innerHTML = "-";
+    plandi.innerHTML = "-";
+    donedi.innerHTML = "-";
+    planwo.innerHTML = "-";
+    donewo.innerHTML = "-";
+    plando.innerHTML = "-";
+    donedo.innerHTML = "-";
+    planvr.innerHTML = "-";
+    donevr.innerHTML = "-";
+}
+
+function week04() {
+    planma.innerHTML = "- week04";
     donema.innerHTML = "-";
     plandi.innerHTML = "-";
     donedi.innerHTML = "-";

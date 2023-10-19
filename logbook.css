@@ -36,13 +36,15 @@ body {
 
   .week {
     min-width: 50%;
+    margin: 1%;
   }
 
   .weekcontent {
     display: flex;
     flex-direction: column;
-    margin-left: 1%;
+    margin-left: 25%;
     min-width: 60%;
+    max-width: 60%;
     background-color: #5b5e61;
     border-radius: 5px;
     margin-top: 1%;
@@ -59,6 +61,24 @@ body {
     margin: 0.5%;
   }
 
-  .weekbutton {
+  .logbook {
+    display: flex;
+    flex-direction: row;
+  }
 
+  .daybutton {
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    background-color: #708090;
+    border: solid black 3px;
+    border-radius: 5px;
+    margin: 5px;
+  }
+  
+  .daybutton:hover {background-color: #708090}
+  
+  .daybutton:active {
+    background-color: #708090;
+    transform: translateY(4px);
   }
