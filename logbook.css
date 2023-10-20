@@ -28,7 +28,6 @@ body {
   }
 
   .weektab {
-    background-color: #5b5e61;
     border-radius: 5px;
     min-width: 30%;
     margin-top: 1%;
@@ -42,6 +41,7 @@ body {
   .weekcontent {
     display: flex;
     flex-direction: column;
+    align-items: center;
     margin-left: 25%;
     min-width: 60%;
     max-width: 60%;
@@ -51,19 +51,24 @@ body {
   }
 
   .daycontent {
-    margin: 0.5%;
+    margin: 1%;
     border: solid black;
     background-color: #708090;
     border-radius: 5px;
+    min-height: 17%;
+    min-width: 97%;
   }
 
   .daytext {
     margin: 0.5%;
   }
 
-  .logbook {
+  .logbooktab {
     display: flex;
     flex-direction: row;
+    background-color: #5b5e61;
+    border-radius: 5px;
+    margin-top: 1%;
   }
 
   .daybutton {
