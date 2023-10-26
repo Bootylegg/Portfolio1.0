@@ -47,7 +47,6 @@ body {
     min-height: 30%;
     min-width: 20%;
     background-color: #5b5e61;
-    /* border: solid black 5px; */
     border-bottom: solid black 5px;
     border-left: solid black 5px;
     border-right: solid black 5px;
@@ -56,6 +55,7 @@ body {
 
   .square {
     max-width: 90%;
+    margin: 1%;
   }
 
   .projectname {
