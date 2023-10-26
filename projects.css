@@ -43,11 +43,15 @@ body {
 
   .tab {
     text-align: center;
-    border-radius: 5px;
     margin: 5%;
     min-height: 30%;
     min-width: 20%;
     background-color: #5b5e61;
+    /* border: solid black 5px; */
+    border-bottom: solid black 5px;
+    border-left: solid black 5px;
+    border-right: solid black 5px;
+    border-radius: 5px;
   }
 
   .square {
@@ -57,5 +61,11 @@ body {
   .projectname {
     text-decoration: none;
     color: black;
-    font-size: 99%;
+    font-size: 100%;
+  }
+
+  .title {
+    border-top: solid black 5px;
+    border-bottom: solid black 5px;
+    background-color: #708090;
   }

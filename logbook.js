@@ -18,19 +18,19 @@ function week42() {
     donewo.innerHTML = "- Logboek is bijna af en js al af";
     plando.innerHTML = "- Laaste dingen van logboek maken";
     donedo.innerHTML = "- Logboek is bijna af alleen nog iets meer responsive maken";
-    planvr.innerHTML = "-";
-    donevr.innerHTML = "-";
+    planvr.innerHTML = "- Site meer responsive maken";
+    donevr.innerHTML = "- Site meer responsive Gemaakt";
 }
 
 function week43() {
-    planma.innerHTML = "- week43";
+    planma.innerHTML = "-";
     donema.innerHTML = "-";
     plandi.innerHTML = "-";
     donedi.innerHTML = "-";
     planwo.innerHTML = "-";
     donewo.innerHTML = "-";
-    plando.innerHTML = "-";
-    donedo.innerHTML = "-";
+    plando.innerHTML = "- Projects pagina updaten";
+    donedo.innerHTML = "- Projects pagina geupdate";
     planvr.innerHTML = "-";
     donevr.innerHTML = "-";
 }
