@@ -4,7 +4,7 @@ body {
 }
 
 .navbar {
-  background-color: #9370DB;
+  background-color: #7a5db6;
   border-radius: 5px;
   overflow: hidden;
 }
@@ -30,6 +30,7 @@ body {
 }
 
 .carpic {
+  margin: 1%;
   max-width: 50%;
   border-radius: 5px;
 }
