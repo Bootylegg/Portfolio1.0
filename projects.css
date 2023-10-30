@@ -1,13 +1,13 @@
 body {
-    background-color: #36454F;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  .navbar {
-    background-color: #708090;
-    border-radius: 5px;
-    overflow: hidden;
-  }
+  background-color: #452c63;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  background-color: #9370DB;
+  border-radius: 5px;
+  overflow: hidden;
+}
   
   .topnav a {
     float: left;
@@ -46,7 +46,7 @@ body {
     margin: 5%;
     min-height: 30%;
     min-width: 20%;
-    background-color: #5b5e61;
+    background-color: #645394;
     border-bottom: solid black 3px;
     border-left: solid black 3px;
     border-right: solid black 3px;
@@ -67,5 +67,5 @@ body {
   .title {
     border-top: solid black 3px;
     border-bottom: solid black 3px;
-    background-color: #708090;
+    background-color: #9370DB;
   }
