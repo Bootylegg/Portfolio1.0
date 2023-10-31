@@ -38,7 +38,7 @@ function week43() {
 function week44() {
     planma.innerHTML = "- Kleuren aanpassen site";
     donema.innerHTML = "- Kleuren van grijs naar paars veranderd";
-    plandi.innerHTML = "-";
+    plandi.innerHTML = "- About me maken";
     donedi.innerHTML = "-";
     planwo.innerHTML = "-";
     donewo.innerHTML = "-";

@@ -1,6 +1,7 @@
 body {
   background-color: #452c63;
   font-family: Arial, Helvetica, sans-serif;
+  color: white;
 }
 
 .navbar {
@@ -8,21 +9,20 @@ body {
   border-radius: 5px;
   overflow: hidden;
 }
-  
-  .topnav a {
-    float: left;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  .topnav a:hover {
-    background-color: #C0C0C0;
-    color: black;
-  
-  }
-  
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #513d78;
+  color: white;
+}
+
   .flexstart {
     display: flex;
     flex-direction: column;
@@ -60,7 +60,7 @@ body {
 
   .projectname {
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 100%;
   }
 
@@ -68,4 +68,8 @@ body {
     border-top: solid black 3px;
     border-bottom: solid black 3px;
     background-color: #7a5db6;
+  }
+  
+  a {
+    text-decoration: none;
   }
