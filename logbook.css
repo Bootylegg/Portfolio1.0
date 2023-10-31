@@ -29,10 +29,18 @@ body {
   }
 
   .weektab {
+    background-color: #5d4c88;
     border-radius: 5px;
     min-width: 30%;
     margin-top: 1%;
+    max-height: 50%;
+    overflow-y: scroll;
     }
+
+ .logbooktab {
+   border-radius: 5px;
+   margin-top: 1%;
+ }
 
   .week {
     min-width: 50%;
@@ -64,13 +72,6 @@ body {
     margin: 0.5%;
   }
 
-  .logbooktab {
-    display: flex;
-    flex-direction: row;
-    background-color: #5d4c88;
-    border-radius: 5px;
-    margin-top: 1%;
-  }
 
   .daybutton {
     text-align: center;
