@@ -40,29 +40,29 @@ function week44() {
     donema.innerHTML = "- Kleuren van grijs naar paars veranderd";
     plandi.innerHTML = "- About me maken";
     donedi.innerHTML = "- About me gemaakt en logbook geupdate";
-    planwo.innerHTML = "-";
-    donewo.innerHTML = "-";
-    plando.innerHTML = "-";
-    donedo.innerHTML = "-";
-    planvr.innerHTML = "-";
-    donevr.innerHTML = "-";
+    planwo.innerHTML = "- Ziek";
+    donewo.innerHTML = "- Ziek";
+    plando.innerHTML = "- Ziek";
+    donedo.innerHTML = "- Ziek";
+    planvr.innerHTML = "- Ziek";
+    donevr.innerHTML = "- Ziek";
 }
 
 function week45() {
-    planma.innerHTML = "- week45";
-    donema.innerHTML = "-";
-    plandi.innerHTML = "-";
-    donedi.innerHTML = "-";
-    planwo.innerHTML = "-";
-    donewo.innerHTML = "-";
-    plando.innerHTML = "-";
-    donedo.innerHTML = "-";
-    planvr.innerHTML = "-";
-    donevr.innerHTML = "-";
+    planma.innerHTML = "- Ziek";
+    donema.innerHTML = "- Ziek";
+    plandi.innerHTML = "- Ziek";
+    donedi.innerHTML = "- Ziek";
+    planwo.innerHTML = "- Ziek";
+    donewo.innerHTML = "- Ziek";
+    plando.innerHTML = "- Ziek";
+    donedo.innerHTML = "- Ziek";
+    planvr.innerHTML = "- Ziek";
+    donevr.innerHTML = "- Ziek";
 }
 
 function week46() {
-    planma.innerHTML = "- week46";
+    planma.innerHTML = "- Mappen structuur updaten en laaste puntjes op de i zetten";
     donema.innerHTML = "-";
     plandi.innerHTML = "-";
     donedi.innerHTML = "-";
