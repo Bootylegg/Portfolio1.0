@@ -75,20 +75,20 @@ function week46() {
 }
 
 function week47() {
-    planma.innerHTML = "- week47";
-    donema.innerHTML = "-";
-    plandi.innerHTML = "-";
-    donedi.innerHTML = "-";
-    planwo.innerHTML = "-";
-    donewo.innerHTML = "-";
-    plando.innerHTML = "-";
-    donedo.innerHTML = "-";
-    planvr.innerHTML = "-";
-    donevr.innerHTML = "-";
+    planma.innerHTML = "- No Info";
+    donema.innerHTML = "- No Info";
+    plandi.innerHTML = "- No Info";
+    donedi.innerHTML = "- No Info";
+    planwo.innerHTML = "- No Info";
+    donewo.innerHTML = "- No Info";
+    plando.innerHTML = "- No Info";
+    donedo.innerHTML = "- No Info";
+    planvr.innerHTML = "- No Info";
+    donevr.innerHTML = "- No Info";
 }
 
 function week48() {
-    planma.innerHTML = "- week48";
+    planma.innerHTML = "- Met reflexie verslag beginnen";
     donema.innerHTML = "-";
     plandi.innerHTML = "-";
     donedi.innerHTML = "-";
