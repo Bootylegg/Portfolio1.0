@@ -2,6 +2,10 @@ html {
     background-color: brown;
 }
 
+#slide {
+  max-width: 25%;
+}
+
 /* slideshow */
 * {box-sizing:border-box} 
  
