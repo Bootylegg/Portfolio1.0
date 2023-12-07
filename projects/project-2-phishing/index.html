@@ -7,22 +7,17 @@
     <title>Project 2</title>
 </head>
 <body>
-   <div class="navbar">
+<div class="flexstart">
+    <div class="navbar">
         <nav class="topnav">
-         <div class="home"> <a onClick="home()">Home</a></div>
+        <div class="toptab"><a onclick="previousslide(), playMusic()">Previous</a></div>
+        <div class="toptab"> <a onClick="home(), playMusic()">Home</a></div>
+        <div class="toptab"><a onclick="nextslide(), playMusic()">Next</a></div>
         </nav>
      </div>
-<div class="flexstart">
    <div class="row">
-    <div class="previous">
-        <button id="button" onclick="previousslide()" style="opacity: 1;">previous slide</button>
-    </div>
         <img Onclick="popup(),playMusic()" id="slide" src="pics/splashscreen.png" style="opacity: 0;">
-    <div class="next">
-        <button id="button" onclick="nextslide(),playMusic()" style="opacity: 1;">next slide</button>
     </div>
- 
-   </div>
     <div class="choice">
         <button onclick="pic2choice1(),playMusic()" id="choice" style="opacity: 0;">choice 1</button>
         <button onclick="pic2choice2(),playMusic()" id="choice2" style="opacity: 0;">choice 2</button>

@@ -42,10 +42,25 @@ img {
   padding: 20%;
 }
 
+
+.home {
+  text-align: center;
+  position: relative;
+}
+
 .navbar {
+  display: flex;
   background-color: #000;
   border-radius: 5px;
   overflow: hidden;
+  text-align: center;
+} 
+
+.topnav { 
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
 }
 
 .topnav a {
@@ -54,9 +69,10 @@ img {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  min-width: 200px;
 }
 
 .topnav a:hover {
-  background-color: #513d78;
+  background-color: #28262c;
   color: white;
 }
