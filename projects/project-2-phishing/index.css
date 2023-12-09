@@ -1,0 +1,78 @@
+html {
+  background-color: brown;
+  font-family: Subway-Black;
+}
+
+@font-face {
+  font-family: Subway-Black;
+  src: url(Subway-Black.ttf);
+}
+
+.flexstart {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.slideimg {
+  width: fit-content;
+}
+
+img {
+  width: 80%;
+  border-radius: 10px;
+}
+
+#slide {
+  transition: opacity 5s ease-in;
+}
+
+#button {
+  text-align: center;
+  width: 90%;
+  height: 80%;
+  padding: 20%;
+}
+
+
+.home {
+  text-align: center;
+  position: relative;
+}
+
+.navbar {
+  display: flex;
+  background-color: #000;
+  border-radius: 5px;
+  overflow: hidden;
+  text-align: center;
+} 
+
+.topnav { 
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  min-width: 200px;
+}
+
+.topnav a:hover {
+  background-color: #28262c;
+  color: white;
+}
