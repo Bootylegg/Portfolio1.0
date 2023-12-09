@@ -18,17 +18,18 @@
       <div class="parent">
         <div class="left">
           <img class="marginlogo" src="pics/logo.svg" alt="logo">
-          <h1 class="margin">Daily tappable tech news and stories</h1>
-          <p class="margin">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat et illo error iusto? Minima recusandae culpa perferendis, excepturi tempora mollitia cupiditate iusto id iste nulla nihil, necessitatibus velit vel atque?</p>
+          <h1 onmouseenter="hover(),colorloop()" onmouseleave="offhover()" style="color: black;" id="text" class="margin">Daily tappable tech news and stories</h1>
+          <p id="text" class="margin">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat et illo error iusto? Minima recusandae culpa perferendis, excepturi tempora mollitia cupiditate iusto id iste nulla nihil, necessitatibus velit vel atque?</p>
           <div class="margin">
             <img class="androidios" src="pics/download-ios.svg" alt="ios">
             <img class="androidios" src="pics/download-android.svg" alt="android">
           </div>
         </div>
         <div class="right">
-          <img class="iphone" src="pics/iphone.png" alt="gif">
+          <img onmouseleave="addelement()" onmouseenter="removeelement()" id="phone" class="iphone" src="pics/iphone.png" alt="gif" style="opacity: 1;">
         </div>
       </div>
     </div>
 </body>
+<script src="onepager.js"></script>
 </html>
