@@ -89,32 +89,32 @@ function week47() {
 
 function week48() {
     planma.innerHTML = "- Met reflexie verslag beginnen";
-    donema.innerHTML = "-";
-    plandi.innerHTML = "-";
-    donedi.innerHTML = "-";
-    planwo.innerHTML = "-";
-    donewo.innerHTML = "-";
-    plando.innerHTML = "-";
-    donedo.innerHTML = "-";
-    planvr.innerHTML = "-";
-    donevr.innerHTML = "-";
+    donema.innerHTML = "- No Info";
+    plandi.innerHTML = "- No Info";
+    donedi.innerHTML = "- No Info";
+    planwo.innerHTML = "- No Info";
+    donewo.innerHTML = "- No Info";
+    plando.innerHTML = "- No Info";
+    donedo.innerHTML = "- No Info";
+    planvr.innerHTML = "- No Info";
+    donevr.innerHTML = "- No Info";
 }
 
 function week49() {
-    planma.innerHTML = "- week49";
-    donema.innerHTML = "-";
-    plandi.innerHTML = "-";
-    donedi.innerHTML = "-";
-    planwo.innerHTML = "-";
-    donewo.innerHTML = "-";
-    plando.innerHTML = "-";
-    donedo.innerHTML = "-";
-    planvr.innerHTML = "-";
-    donevr.innerHTML = "-";
+    planma.innerHTML = "- No Info";
+    donema.innerHTML = "- No Info";
+    plandi.innerHTML = "- No Info";
+    donedi.innerHTML = "- No Info";
+    planwo.innerHTML = "- No Info";
+    donewo.innerHTML = "- No Info";
+    plando.innerHTML = "- No Info";
+    donedo.innerHTML = "- No Info";
+    planvr.innerHTML = "- No Info";
+    donevr.innerHTML = "- No Info";
 }
 
 function week50() {
-    planma.innerHTML = "- week50";
+    planma.innerHTML = "- irritante website afmaken";
     donema.innerHTML = "-";
     plandi.innerHTML = "-";
     donedi.innerHTML = "-";

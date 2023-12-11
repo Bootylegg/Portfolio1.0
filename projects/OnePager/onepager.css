@@ -2,6 +2,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+html {
+    overflow: none;
+}
+
 .parent {
     display: flex;
     flex-direction: row;
@@ -22,8 +26,9 @@
 }
 
 .right {
-    background-color: red;
+    background-color: rgb(151, 6, 6);
     min-width: 50%; 
+    min-height: 1000px;
 }
 
 .iphone {
