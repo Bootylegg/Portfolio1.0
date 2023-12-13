@@ -28,8 +28,6 @@ function addapp2(){
     app2.style.opacity = 1
 }
 
-let hovercheck = 0
-
 let colorInterval
 
 function startColorLoop() {
@@ -88,4 +86,52 @@ function stopColorLoop() {
 function stopColorLoop2() {
     clearInterval(colorInterval)
     document.getElementById('text2').style.color = "black"
+};
+
+let logocheck = 0
+
+function logo() {
+    logocheck = 1
+    while (logocheck = 1) {
+        console.log("get crashed noob")
+    }
 }
+
+function backgroundswitch() {
+    document.getElementById("right").style.backgroundColor = "white"
+    document.getElementById("left").style.backgroundColor = "#970606"
+}
+
+function backgroundnormal() {
+    document.getElementById("right").style.backgroundColor = "#970606"
+    document.getElementById("left").style.backgroundColor = "white"
+}
+
+function startColorLoop3() {
+    let hovercheck = 0
+    let colorchange3 = document.getElementById('right')
+
+    colorInterval = setInterval(() => {
+        switch (hovercheck) {
+            case 0:
+                colorchange3.style.backgroundColor = "blue"
+                break
+            case 1:
+                colorchange3.style.backgroundColor = "red"
+                break
+                case 2:
+                colorchange3.style.backgroundColor = "green"
+                break
+                case 3:
+            default:
+                colorchange3.style.backgroundColor = "black"
+                break
+        }
+        hovercheck = (hovercheck + 1) % 3
+    }, 100)
+}
+
+function stopColorLoop3() {
+    clearInterval(colorInterval)
+    document.getElementById('right').style.backgroundColor = "#970606"
+};

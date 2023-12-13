@@ -1,0 +1,88 @@
+:root {
+    --size: 175px;
+
+    --border-middle: 1px solid #070a09;
+
+    --border-outside: 1px solid #afacaf;
+}
+
+body {
+    background-color: #f0f0f0;
+    background-image: url(bg.png);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+}
+
+.all-boxes {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    width: 0px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 300%;
+}
+
+.boxa {
+    height: var(--size);
+    width: var(--size);
+    background-color: #efebef;
+    border: var(--border-outside);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: 0;
+}
+
+.boxb {
+    height: var(--size);
+    width: var(--size);
+    background-color: #ffff9c;
+    border: var(--border-middle);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: 0;
+}
+
+.boxc {
+    height: var(--size);
+    width: var(--size);
+    background-color: #ceffce;
+    border: var(--border-middle);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: 0;
+}
+
+.void {
+    height: var(--size);
+    width: var(--size);
+}
+
+input {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    height: var(--size);
+    width: var(--size);
+    text-align: center;
+    font-size: large;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    cursor: pointer;
+}
+
+.func {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    background-color: #000000;
+    width: 1px;
+    height: 1px;
+}
