@@ -118,11 +118,11 @@ function week50() {
     donema.innerHTML = "- irritante website is bijna af";
     plandi.innerHTML = "- laatste puntjes op de i zetten bij website";
     donedi.innerHTML = "- irritante website klaar";
-    planwo.innerHTML = "- reflectie verslagen maken";
-    donewo.innerHTML = "-";
-    plando.innerHTML = "-";
-    donedo.innerHTML = "-";
-    planvr.innerHTML = "-";
+    planwo.innerHTML = "- reflectie verslagen maken ";
+    donewo.innerHTML = "- reflectie verslag van portfolio af";
+    plando.innerHTML = "- met engels verder";
+    donedo.innerHTML = "- engels verder gemaakt";
+    planvr.innerHTML = "- refectie verslag van irritante webpagina maken";
     donevr.innerHTML = "-";
 }
 

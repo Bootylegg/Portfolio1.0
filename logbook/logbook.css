@@ -35,7 +35,6 @@ body {
   min-width: 30%;
   margin-top: 1%;
   height: 50%;
-  max-height: 50%;
   overflow-y: scroll;
 }
 
@@ -46,7 +45,7 @@ body {
 
 .week {
   min-width: 50%;
-  margin: 1%;
+  margin: 2%;
 }
 
 .weekcontent {
