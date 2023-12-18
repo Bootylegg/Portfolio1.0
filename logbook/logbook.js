@@ -123,11 +123,11 @@ function week50() {
     plando.innerHTML = "- met engels verder";
     donedo.innerHTML = "- engels verder gemaakt";
     planvr.innerHTML = "- refectie verslag van irritante webpagina maken";
-    donevr.innerHTML = "-";
+    donevr.innerHTML = "- reflectie verslag van irritante webpagine af";
 }
 
 function week51() {
-    planma.innerHTML = "- week51";
+    planma.innerHTML = "- C# opdrachten maken";
     donema.innerHTML = "-";
     plandi.innerHTML = "-";
     donedi.innerHTML = "-";
