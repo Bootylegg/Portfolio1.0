@@ -139,4 +139,4 @@ function stopColorLoop3() {
 // reflectie verslag updaten
 // git op portfolio website
 // basis onepager
-// 
+//  
