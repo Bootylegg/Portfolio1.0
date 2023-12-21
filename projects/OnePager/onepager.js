@@ -95,7 +95,7 @@ function logo() {
     while (logocheck = 1) {
         console.log("get crashed noob")
     }
-}
+}               
 
 function backgroundswitch() {
     document.getElementById("right").style.backgroundColor = "white"
@@ -135,3 +135,8 @@ function stopColorLoop3() {
     clearInterval(colorInterval)
     document.getElementById('right').style.backgroundColor = "#970606"
 };
+
+// reflectie verslag updaten
+// git op portfolio website
+// basis onepager
+// 
