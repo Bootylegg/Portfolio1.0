@@ -135,8 +135,3 @@ function stopColorLoop3() {
     clearInterval(colorInterval)
     document.getElementById('right').style.backgroundColor = "#970606"
 };
-
-// reflectie verslag updaten
-// git op portfolio website
-// basis onepager
-//  

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- image --> 
+  <meta property="og:title" content="My parents dont know im bi" />
+  
+  <meta property="og:image" content="/pics/logo.png"/>
+
+  <meta name="twitter:card" content="summary_large_image"> <meta name="twitter:image" content="/pics/logo.png"> <meta name="twitter:image:src" content="/pics/logo.png"> <meta property="og:image" content="/pics/logo.png">
+<!-- image -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="onepager.css">
+    <title>OnePager</title>
+</head>
+<body>
+    <div class="flexstart">
+      <div class="parent">
+        <div onmouseenter="backgroundnormal(),stopColorLoop3  ()" id="left" class="left">
+          <img onclick="logo()" id="logo" class="marginlogo" src="pics/logo.svg" alt="logo">
+          <h1 onmouseenter="startColorLoop()" onmouseleave="stopColorLoop()" id="text" class="margin">Daily tappable tech news and stories</h1>
+          <p onmouseenter="startColorLoop2()" onmouseleave="stopColorLoop2()" id="text2" class="margin">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat et illo error iusto? Minima recusandae culpa perferendis, excepturi tempora mollitia cupiditate iusto id iste nulla nihil, necessitatibus velit vel atque?</p>
+          <div class="margin">
+            <img onmouseenter="removeapp()" onmouseleave="addapp()" id="app" class="androidios" src="pics/download-ios.svg" alt="ios">
+            <img onmouseenter="removeapp2()" onmouseleave="addapp2()" id="app2" class="androidios" src="pics/download-android.svg" alt="android">
+          </div>
+        </div>
+        <div id="right"  onmouseenter="backgroundswitch()" class="right">
+          <img onmouseleave="addelement()" onmouseenter="removeelement(),startColorLoop3( )" id="phone" class="iphone" src="pics/iphone.png" alt="gif" style="opacity: 1;">
+        </div>
+      </div>
+    </div>
+</body>
+<script src="onepager.js"></script>
+</html>

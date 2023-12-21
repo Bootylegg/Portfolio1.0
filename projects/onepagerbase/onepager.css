@@ -1,0 +1,48 @@
+:root {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    overflow: none;
+}
+
+.parent {
+    display: flex;
+    flex-direction: row;
+}
+
+.flexstart {
+    display: flex;
+    flex-direction: row;
+
+}
+
+@media only screen and (max-width: 1100px) {
+    .parent {flex-wrap: wrap;}
+  }
+
+.left {
+    min-width: 50%;
+}
+
+.right {
+    background-color: #970606;
+    min-width: 50%; 
+    min-height: 1000px;
+}
+
+.iphone {
+    margin-top: 5%;
+    margin-left: 25%;
+    max-width: 40%;
+}
+
+.margin {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.marginlogo {
+    margin-left: 20%;
+    margin-top: 20%;
+}
