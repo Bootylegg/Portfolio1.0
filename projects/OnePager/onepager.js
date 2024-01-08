@@ -134,4 +134,4 @@ function startColorLoop3() {
 function stopColorLoop3() {
     clearInterval(colorInterval)
     document.getElementById('right').style.backgroundColor = "#970606"
-};
+};  

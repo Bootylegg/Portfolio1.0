@@ -109,7 +109,7 @@ function update() {
         lost.play()
         
         context.font = "20px sans-serif";
-        context.fillText("You Suck!: Press 'Space' to Try again", 80, 400);
+        context.fillText("Press 'Space' to Try again", 80, 400);
         gameOver = true;
     }
 
