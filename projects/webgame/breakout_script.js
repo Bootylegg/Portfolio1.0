@@ -1,13 +1,13 @@
 
 let board;
-let boardWidth = 500;
+let boardWidth = 1000;
 let boardHeight = 500;
 let context; 
 
 
-let playerWidth = 80; 
+let playerWidth = 150; 
 let playerHeight = 10;
-let playerVelocityX = 10; 
+let playerVelocityX = 15; 
 
 let player = {
     x : boardWidth/2 - playerWidth/2,
@@ -109,7 +109,7 @@ function update() {
         lost.play()
         
         context.font = "20px sans-serif";
-        context.fillText("You Suck!: Press 'Space' to Try again", 80, 400);
+        context.fillText("Press 'Space' to Try again", 80, 400);
         gameOver = true;
     }
 
@@ -204,8 +204,8 @@ function createBlocks() {
     for (let c = 0; c < blockColumns; c++) {
         for (let r = 0; r < blockRows; r++) {
             let block = {
-                x : blockX + c*blockWidth + c*10, 
-                y : blockY + r*blockHeight + r*10,
+                x : blockX + c*blockWidth + c*15, //space between
+                y : blockY + r*blockHeight + r*15, //space between
                 width : blockWidth,
                 height : blockHeight,
                 break : false
