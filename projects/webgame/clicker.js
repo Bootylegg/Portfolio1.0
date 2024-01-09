@@ -72,3 +72,4 @@ function twenny() {
 }
 
 // make a visual indication for how many cllicker you have
+// total cookies collected
