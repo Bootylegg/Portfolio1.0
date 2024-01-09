@@ -3,11 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Break the Out</title>
-    <link rel="stylesheet" href="breakout_style.css">
-    <script src="breakout_script.js"></script>
+    <title>Cat Clicker</title>
+    <link rel="stylesheet" href="catclicker.css">
 </head>
 <body>
-    <canvas id="board"></canvas>
+    <div class="flexstart">
+        <div class="left">
+            <div class="box">
+                <div class="titel"><h1>Buy Items</h1></div>
+                <div class="row">clicker 1</div>
+                <div class="row">clicker 10</div>
+                <div class="row">clicker 25</div>
+            </div>
+        </div>
+        <div class="right">
+            <span id="clicknumber">0</span>
+            <div id="clicker" onclick="clicky()" class="catimg"></div>
+        </div>
+    </div>
 </body>
+<script src="clicker.js"></script>
 </html>

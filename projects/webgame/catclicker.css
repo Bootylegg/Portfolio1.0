@@ -1,0 +1,49 @@
+body {
+    background-color: teal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flexstart {
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    min-width: 50%;
+    align-items: center;
+    text-align: center;
+}
+
+.right {
+    min-width: 50%;
+    min-height: 100%;
+}
+
+.box {
+    margin-top: 5%;
+    background-color: thistle;
+    width: 50%;
+    height: 75vh;
+}
+
+.row {
+    min-width: 50%;
+}
+
+.catimg {
+    background-image: url("catclick.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    max-width: 500px;
+    min-height: 500px;
+    
+}
+
+#clicknumber {
+    border: 2px black solid;
+    min-width: 100px;
+    min-height: 50px;
+}
+
