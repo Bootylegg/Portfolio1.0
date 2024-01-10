@@ -13,7 +13,7 @@ body {
     flex-direction: column;
     min-width: 50%;
     align-items: center;
-    text-align: center;
+    text-align: left;
 }
 
 .right {
@@ -27,11 +27,13 @@ body {
 .box {
     margin-top: 5%;
     background-color: thistle;
-    width: 50%;
+    width: 80%;
     height: 50vh;
 }
 
 .row {
+    display: flex;
+    flex-direction: row;
     min-width: 50%;
     background-color: aliceblue;
     margin: 2%;
@@ -39,11 +41,30 @@ body {
     cursor:pointer
 }
 
+.rowtext {
+    margin-left: 1%;
+}
+
+.price {
+    margin-left: 1%;
+    margin-right: 2%;
+}
+
+.bought {
+    margin-left: 1%;
+}
+
+.catcontainer {
+    min-height: 50hv;
+    min-width: 50vw;
+}
+
 .catimg {
+    user-select: none;
+    margin-top: 5%;
     background-repeat: no-repeat;
     background-size: contain;
-    min-width: 50vw;
-    min-height: 50vh;
+    min-height: 80vh;
 }
 
 #clicknumber {

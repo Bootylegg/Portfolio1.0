@@ -10,15 +10,20 @@
     <div class="flexstart">
         <div class="left">
             <div class="box">
+                <div class="total">Total cats collected: <span id="totalcollected">0</span></div>
                 <div class="titel"><h1>Buy Items</h1></div>
-                <div onclick="add1click()" class="row">clicker 1 price: <span id="price1">15</span></div>
-                <div onclick="add10click()" class="row">clicker 10 price: <span id="price10">250</span></div>
-                <div onclick="add25click()" class="row">clicker 25 price: <span id="price25">2000</span></div>
+                <div onclick="add1click()" class="row"><div class="rowtext">clicker 1 price: </div><span class="price" id="price1">15</span>Bought: <span id="bought1">0</span></div>
+                <div onclick="add10click()" class="row"><div class="rowtext">clicker 10 price: </div><span class="price" id="price10">250</span>Bought: <span class="bought" id="bought10">0</span></div>
+                <div onclick="add25click()" class="row"><div class="rowtext">clicker 25 price: </div><span class="price" id="price25">2000</span>Bought: <span class="bought" id="bought25">0</span></div>
             </div>
+            <p>clicker 1 = 1 click every 2.5 seconds</p>
+            <p>clicker 10 = 10 clicks every 5 seconds</p>
+            <p>clicker 25 = 25 clicks every 7.5 seconds</p>
         </div>
         <div class="right">
-            <span id="clicknumber">0</span>
-            <div id="clicker" onclick="clicky()" class="catimg" style="background-image: url(catclick.png);"></div>
+            <div class="catcontainer">
+                <div id="clicker" onclick="clicky()" class="catimg" style="background-image: url(catclick.png);"><span id="clicknumber">0</span></div>
+            </div>
         </div>
     </div>
 </body>
