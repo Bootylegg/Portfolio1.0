@@ -41,8 +41,11 @@ body {
 .tab {
   text-align: center;
   margin: 5%;
-  min-height: 30%;
-  min-width: 20%;
+  min-height: fit-content;
+  min-height: 50%;
+  min-width: 20vw;
+  max-height: 50%;
+  max-width: 20vw;
   background-color: #5d4c88;
   border-bottom: solid black 3px;
   border-left: solid black 3px;
@@ -50,8 +53,12 @@ body {
   border-radius: 5px;
 }
 .square {
+  min-width: 50%;
   max-width: 90%;
   margin: 1%;
+}
+.image{
+  max-width:30vw;
 }
 .projectname {
   text-decoration: none;

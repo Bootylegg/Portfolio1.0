@@ -166,22 +166,22 @@ function week01() {
 }
 
 function week02() {
-    planma.innerHTML = "- week02";
-    donema.innerHTML = "-";
-    plandi.innerHTML = "-";
-    donedi.innerHTML = "-";
-    planwo.innerHTML = "-";
-    donewo.innerHTML = "-";
-    plando.innerHTML = "-";
-    donedo.innerHTML = "-";
-    planvr.innerHTML = "-";
-    donevr.innerHTML = "-";
+    planma.innerHTML = "- Met webgame beginnen";
+    donema.innerHTML = "- Base cookie clicker gemaakt";
+    plandi.innerHTML = "- Project updaten";
+    donedi.innerHTML = "- Project geupdate";
+    planwo.innerHTML = "- Js cat clicker updaten";
+    donewo.innerHTML = "- Js cat clicker geupdate";
+    plando.innerHTML = "- Css cat clicker updaten";
+    donedo.innerHTML = "- Css cat clicker geupdate";
+    planvr.innerHTML = "- Bug fixes cat clicker";
+    donevr.innerHTML = "- Fixed bugs cat clicker";
 }
 
 function week03() {
-    planma.innerHTML = "- week03";
-    donema.innerHTML = "-";
-    plandi.innerHTML = "-";
+    planma.innerHTML = "- Extra functies toevoegen cat clicker";
+    donema.innerHTML = "- Added the gold cat";
+    plandi.innerHTML = "- Nog meer dingen toevoegen aan cat clicker";
     donedi.innerHTML = "-";
     planwo.innerHTML = "-";
     donewo.innerHTML = "-";
