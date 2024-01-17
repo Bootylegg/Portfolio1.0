@@ -16,16 +16,25 @@
                 <div onclick="add10click()" class="row"><div class="rowtext">clicker 10 price: </div><span class="price" id="price10">100</span>Bought: <span class="bought" id="bought10">0</span></div>
                 <div onclick="add25click()" class="row"><div class="rowtext">clicker 25 price: </div><span class="price" id="price25">250</span>Bought: <span class="bought" id="bought25">0</span></div>
                 <div onclick="add50click()" class="row"><div class="rowtext">clicker 50 price: </div><span class="price" id="price50">400</span>Bought: <span class="bought" id="bought50">0</span></div>
+                <div onclick="addclick()" class="row"><div class="rowtext">+1 click price: </div><span class="price" id="priceclick">600</span>Bought: <span class="bought" id="boughtclick">0</span></div>
                 <p>clicker 1 = 1 click every 1.5 seconds</p>
                 <p>clicker 10 = 10 clicks every 3 seconds</p>
                 <p>clicker 25 = 25 clicks every 5 seconds</p>
                 <p>clicker 50 = 50 clicks every 4 seconds</p>
+                <p>+1 click = +1 click per click</p>
+            </div>
+        </div>
+        <div class="mid">
+            <div id="goldcat">
                 <img onclick="goldcat()" id="gold" src="catgold.png" alt="gold catto" style="max-width: 0%;">
+            </div>
+            <div class="cps">
+                <span id="cps">0</span>
             </div>
         </div>
         <div class="right">
             <div class="catcontainer">
-                <div id="clicker" onclick="clicky()" class="catimg" style="background-image: url(catclick.png);">Total collected: <span id="totalcollected">0</span></div>
+                <div id="clicker" onclick="clicky(), audio()" class="catimg" style="background-image: url(catclick.png);">Total collected: <span id="totalcollected">0</span></div>
             </div>
         </div>
     </div>

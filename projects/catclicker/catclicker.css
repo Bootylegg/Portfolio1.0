@@ -8,6 +8,7 @@ body {
     display: flex;
     flex-direction: row;
     margin: 3%;
+    margin-left: 0.5%;
 }
 
 .left {
@@ -20,7 +21,7 @@ body {
     text-align: left;
     border-radius: 5px;
     border: #C63D2F 3px solid;
-    margin-right: 2.5%;
+    margin-right: 0.5%;
 }
 
 .right {
@@ -33,7 +34,7 @@ body {
     background-color: #FF9B50;
     border-radius: 5px;
     border: #C63D2F 3px solid;
-    margin-left: 2.5%;
+    margin-left: 0.5%;
 }
 
 .box {
@@ -83,12 +84,13 @@ body {
     border-radius: 5px;
 }
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 1080px) {
     .flexstart {flex-direction: column;}
     .left {min-width: 100%; margin-right: 0%;}
     .right {min-width: 100%; margin-left: 0%;}
     .row {min-width: 100%;}
     .box {min-width: 75%;}
+    #goldcat{margin-left: 30vw; max-width: 30vw;}  
 }
 
 .total {
@@ -103,6 +105,31 @@ body {
     cursor: pointer;
 }
 
+#goldcat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FF9B50;
+    border-radius: 5px;
+    border: #C63D2F 3px solid;
+    min-height: 20vh;
+    max-height: 20vh;
+    min-width: 10vw;
+}
+
 #gold {
     cursor: pointer;
+    margin-bottom: 1.5%;
+}
+
+.cps {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FF9B50;
+    border-radius: 5px;
+    border: #C63D2F 3px solid;
+    min-height: 20vh;
+    max-height: 20vh;
+    min-width: 10vw;
 }
