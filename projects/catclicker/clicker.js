@@ -13,9 +13,14 @@ let price25 = document.getElementById("price25")
 let height = document.getElementById("goldcat").offsetHeight
 let width = document.getElementById("goldcat").offsetWidth
 
-function audio() {
-    var audio = new Audio('meow.mp3')
-    audio.play()
+let cpsnum = 0 
+let extraclick = 1
+
+var audio = new Audio('meow.mp3')
+var audio2 = new Audio('yippee.mp3')
+
+function cpsconvert() {
+    document.getElementById("totalcps").innerHTML = cpsnum.toFixed(2)
 }
 
 function counter(){
@@ -26,6 +31,7 @@ function counter(){
 function clicky() {
     clickcount += clickplus 
     chance()
+    audio.play()
     height = document.getElementById("goldcat").offsetHeight
     width = document.getElementById("goldcat").offsetWidth
     let heightconvert = height -10 + "px"
@@ -47,9 +53,11 @@ function clicky() {
 function add1click() {
     if(clickcount >= price1.innerHTML) {
         clickcount -= price1.innerHTML
+        cpsnum++
+        cpsconvert()
         counter()
         document.getElementById("bought1").innerHTML++
-        setInterval(plus1, 1500)
+        setInterval(plus1, 1000)
         price1.innerHTML = Math.round(price1.innerHTML * 1.1)
     }
 }
@@ -57,9 +65,11 @@ function add1click() {
 function add10click() {
     if(clickcount >= price10.innerHTML) {
         clickcount -= price10.innerHTML
+        cpsnum += 5
+        cpsconvert()
         counter()
         document.getElementById("bought10").innerHTML++
-        setInterval(plus10, 3000)
+        setInterval(plus10, 2000)
         price10.innerHTML = Math.round(price10.innerHTML * 1.2)
     }
 }
@@ -67,9 +77,11 @@ function add10click() {
 function add25click() {
     if(clickcount >= price25.innerHTML) {
         clickcount -= price25.innerHTML
+        cpsnum += 6.25
+        cpsconvert()
         counter()
         document.getElementById("bought25").innerHTML++
-        setInterval(plus25, 5000)
+        setInterval(plus25, 4000)
         price25.innerHTML = Math.round(price25.innerHTML * 1.3)
     }
 }
@@ -77,16 +89,23 @@ function add25click() {
 function add50click() {
     if(clickcount >= price50.innerHTML) {
         clickcount -= price50.innerHTML
-        cps.innerHTML += 12.5
         counter()
+        cpsnum += 8.33
+        cpsconvert()
         document.getElementById("bought50").innerHTML++
-        setInterval(plus50, 4000)
+        setInterval(plus50, 6000)
         price50.innerHTML = Math.round(price50.innerHTML * 1.4)
     }
 }
 
+function clickperupdate() {
+    document.getElementById("clicksperclick").innerHTML = extraclick
+}
+
 function addclick() {
     if(clickcount >= priceclick.innerHTML)  {
+        extraclick++
+        clickperupdate()
         clickplus++
         clickcount -= priceclick.innerHTML
         counter()
@@ -125,15 +144,23 @@ function chance() {
 }
 
 function goldcat() {
-    let addgold = clickcount / 2
-    addgold = Math.round(addgold)
+    if (document.getElementById("gold").src.includes("catgold.png")) {
+        let addgold = clickcount / 2
+        addgold = Math.round(addgold)
         clickcount += addgold
+        audio2.play()
         totalcollected = addgold + totalcollected
         chance()
-        document.getElementById("gold").style.maxWidth = "0%"
         counter()
-        document.getElementById("gold").style.maxWidth = "0vw"
-        document.getElementById("gold").style.minWidth = "0vw"
-        document.getElementById("gold").style.maxHeight = "0vh"
-        document.getElementById("gold").style.minHeight = "0vh"
+        document.getElementById("gold").src = "yippee.png"
+        setTimeout(() => {
+            document.getElementById("gold").src = "catgold.png"
+        }, 3000);
+        setTimeout(() => {
+            document.getElementById("gold").style.maxWidth = "0px"
+            document.getElementById("gold").style.minWidth = "0px"
+            document.getElementById("gold").style.maxHeight = "0px"
+            document.getElementById("gold").style.minHeight = "0px"
+        }, 2500);
+    }
 }

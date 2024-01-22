@@ -1,205 +1,361 @@
-let planma = document.getElementById("logplanma");
-let donema = document.getElementById("logdonema");
-let plandi = document.getElementById("logplandi");
-let donedi = document.getElementById("logdonedi");
-let planwo = document.getElementById("logplanwo");
-let donewo = document.getElementById("logdonewo");
-let plando = document.getElementById("logplando");
-let donedo = document.getElementById("logdonedo");
-let planvr = document.getElementById("logplanvr");
-let donevr = document.getElementById("logdonevr");
+let planmon = document.getElementById("planmon");
+let donemon = document.getElementById("donemon");
+let plantue = document.getElementById("plantue");
+let donetue = document.getElementById("donetue");
+let planwed = document.getElementById("planwed");
+let donewed = document.getElementById("donewed");
+let planthu = document.getElementById("planthu");
+let donethu = document.getElementById("donethu");
+let planfri = document.getElementById("planfri");
+let donefri = document.getElementById("donefri");
 
 function week42() {
-    planma.innerHTML = "-";
-    donema.innerHTML = "-";
-    plandi.innerHTML = "-";
-    donedi.innerHTML = "-";
-    planwo.innerHTML = "- Logboek maken met js van logboek beginnen";
-    donewo.innerHTML = "- Logboek is bijna af en js al af";
-    plando.innerHTML = "- Laaste dingen van logboek maken";
-    donedo.innerHTML = "- Logboek is bijna af alleen nog iets meer responsive maken";
-    planvr.innerHTML = "- Site meer responsive maken";
-    donevr.innerHTML = "- Site meer responsive Gemaakt";
+    planmon.innerHTML = "-";
+    donemon.innerHTML = "-";
+    plantue.innerHTML = "-";
+    donetue.innerHTML = "-";
+    planwed.innerHTML = "- Logboek maken met js van logboek beginnen";
+    donewed.innerHTML = "- Logboek is bijna af en js al af";
+    planthu.innerHTML = "- Laaste dingen van logboek maken";
+    donethu.innerHTML = "- Logboek is bijna af alleen nog iets meer responsive maken";
+    planfri.innerHTML = "- Site meer responsive maken";
+    donefri.innerHTML = "- Site meer responsive Gemaakt";
 }
 
 function week43() {
-    planma.innerHTML = "- No Info";
-    donema.innerHTML = "- No Info";
-    plandi.innerHTML = "- No Info";
-    donedi.innerHTML = "- No Info";
-    planwo.innerHTML = "- No Info";
-    donewo.innerHTML = "- No Info";
-    plando.innerHTML = "- Projects pagina updaten";
-    donedo.innerHTML = "- Projects pagina geupdate";
-    planvr.innerHTML = "- No Info";
-    donevr.innerHTML = "- No Info";
+    planmon.innerHTML = "- No Info";
+    donemon.innerHTML = "- No Info";
+    plantue.innerHTML = "- No Info";
+    donetue.innerHTML = "- No Info";
+    planwed.innerHTML = "- No Info";
+    donewed.innerHTML = "- No Info";
+    planthu.innerHTML = "- Projects pagina updaten";
+    donethu.innerHTML = "- Projects pagina geupdate";
+    planfri.innerHTML = "- No Info";
+    donefri.innerHTML = "- No Info";
 }
 
 function week44() {
-    planma.innerHTML = "- Kleuren aanpassen site";
-    donema.innerHTML = "- Kleuren van grijs naar paars veranderd";
-    plandi.innerHTML = "- About me maken";
-    donedi.innerHTML = "- About me gemaakt en logbook geupdate";
-    planwo.innerHTML = "- No Info";
-    donewo.innerHTML = "- No Info";
-    plando.innerHTML = "- No Info";
-    donedo.innerHTML = "- No Info";
-    planvr.innerHTML = "- No Info";
-    donevr.innerHTML = "- No Info";
+    planmon.innerHTML = "- Kleuren aanpassen site";
+    donemon.innerHTML = "- Kleuren van grijs naar paars veranderd";
+    plantue.innerHTML = "- About me maken";
+    donetue.innerHTML = "- About me gemaakt en logbook geupdate";
+    planwed.innerHTML = "- No Info";
+    donewed.innerHTML = "- No Info";
+    planthu.innerHTML = "- No Info";
+    donethu.innerHTML = "- No Info";
+    planfri.innerHTML = "- No Info";
+    donefri.innerHTML = "- No Info";
 }
 
 function week45() {
-    planma.innerHTML = "- No Info";
-    donema.innerHTML = "- No Info";
-    plandi.innerHTML = "- No Info";
-    donedi.innerHTML = "- No Info";
-    planwo.innerHTML = "- No Info";
-    donewo.innerHTML = "- No Info";
-    plando.innerHTML = "- No Info";
-    donedo.innerHTML = "- No Info";
-    planvr.innerHTML = "- No Info";
-    donevr.innerHTML = "- No Info";
+    planmon.innerHTML = "- No Info";
+    donemon.innerHTML = "- No Info";
+    plantue.innerHTML = "- No Info";
+    donetue.innerHTML = "- No Info";
+    planwed.innerHTML = "- No Info";
+    donewed.innerHTML = "- No Info";
+    planthu.innerHTML = "- No Info";
+    donethu.innerHTML = "- No Info";
+    planfri.innerHTML = "- No Info";
+    donefri.innerHTML = "- No Info";
 }
 
 function week46() {
-    planma.innerHTML = "- Mappen structuur updaten en laaste puntjes op de i zetten";
-    donema.innerHTML = "- No Info";
-    plandi.innerHTML = "- No Info";
-    donedi.innerHTML = "- No Info";
-    planwo.innerHTML = "- No Info";
-    donewo.innerHTML = "- No Info";
-    plando.innerHTML = "- No Info";
-    donedo.innerHTML = "- No Info";
-    planvr.innerHTML = "- No Info";
-    donevr.innerHTML = "- No Info";
+    planmon.innerHTML = "- Mappen structuur updaten en laaste puntjes op de i zetten";
+    donemon.innerHTML = "- No Info";
+    plantue.innerHTML = "- No Info";
+    donetue.innerHTML = "- No Info";
+    planwed.innerHTML = "- No Info";
+    donewed.innerHTML = "- No Info";
+    planthu.innerHTML = "- No Info";
+    donethu.innerHTML = "- No Info";
+    planfri.innerHTML = "- No Info";
+    donefri.innerHTML = "- No Info";
 }
 
 function week47() {
-    planma.innerHTML = "- No Info";
-    donema.innerHTML = "- No Info";
-    plandi.innerHTML = "- No Info";
-    donedi.innerHTML = "- No Info";
-    planwo.innerHTML = "- No Info";
-    donewo.innerHTML = "- No Info";
-    plando.innerHTML = "- No Info";
-    donedo.innerHTML = "- No Info";
-    planvr.innerHTML = "- No Info";
-    donevr.innerHTML = "- No Info";
+    planmon.innerHTML = "- No Info";
+    donemon.innerHTML = "- No Info";
+    plantue.innerHTML = "- No Info";
+    donetue.innerHTML = "- No Info";
+    planwed.innerHTML = "- No Info";
+    donewed.innerHTML = "- No Info";
+    planthu.innerHTML = "- No Info";
+    donethu.innerHTML = "- No Info";
+    planfri.innerHTML = "- No Info";
+    donefri.innerHTML = "- No Info";
 }
 
 function week48() {
-    planma.innerHTML = "- Met reflexie verslag beginnen";
-    donema.innerHTML = "- No Info";
-    plandi.innerHTML = "- No Info";
-    donedi.innerHTML = "- No Info";
-    planwo.innerHTML = "- No Info";
-    donewo.innerHTML = "- No Info";
-    plando.innerHTML = "- No Info";
-    donedo.innerHTML = "- No Info";
-    planvr.innerHTML = "- No Info";
-    donevr.innerHTML = "- No Info";
+    planmon.innerHTML = "- Met reflexie verslag beginnen";
+    donemon.innerHTML = "- No Info";
+    plantue.innerHTML = "- No Info";
+    donetue.innerHTML = "- No Info";
+    planwed.innerHTML = "- No Info";
+    donewed.innerHTML = "- No Info";
+    planthu.innerHTML = "- No Info";
+    donethu.innerHTML = "- No Info";
+    planfri.innerHTML = "- No Info";
+    donefri.innerHTML = "- No Info";
 }
 
 function week49() {
-    planma.innerHTML = "- No Info";
-    donema.innerHTML = "- No Info";
-    plandi.innerHTML = "- No Info";
-    donedi.innerHTML = "- No Info";
-    planwo.innerHTML = "- No Info";
-    donewo.innerHTML = "- No Info";
-    plando.innerHTML = "- No Info";
-    donedo.innerHTML = "- No Info";
-    planvr.innerHTML = "- No Info";
-    donevr.innerHTML = "- No Info";
+    planmon.innerHTML = "- No Info";
+    donemon.innerHTML = "- No Info";
+    plantue.innerHTML = "- No Info";
+    donetue.innerHTML = "- No Info";
+    planwed.innerHTML = "- No Info";
+    donewed.innerHTML = "- No Info";
+    planthu.innerHTML = "- No Info";
+    donethu.innerHTML = "- No Info";
+    planfri.innerHTML = "- No Info";
+    donefri.innerHTML = "- No Info";
 }
 
 function week50() {
-    planma.innerHTML = "- irritante website afmaken";
-    donema.innerHTML = "- irritante website is bijna af";
-    plandi.innerHTML = "- laatste puntjes op de i zetten bij website";
-    donedi.innerHTML = "- irritante website klaar";
-    planwo.innerHTML = "- reflectie verslagen maken ";
-    donewo.innerHTML = "- reflectie verslag van portfolio af";
-    plando.innerHTML = "- met engels verder";
-    donedo.innerHTML = "- engels verder gemaakt";
-    planvr.innerHTML = "- refectie verslag van irritante webpagina maken";
-    donevr.innerHTML = "- reflectie verslag van irritante webpagine af";
+    planmon.innerHTML = "- irritante website afmaken";
+    donemon.innerHTML = "- irritante website is bijna af";
+    plantue.innerHTML = "- laatste puntjes op de i zetten bij website";
+    donetue.innerHTML = "- irritante website klaar";
+    planwed.innerHTML = "- reflectie verslagen maken ";
+    donewed.innerHTML = "- reflectie verslag van portfolio af";
+    planthu.innerHTML = "- met engels verder";
+    donethu.innerHTML = "- engels verder gemaakt";
+    planfri.innerHTML = "- refectie verslag van irritante webpagina maken";
+    donefri.innerHTML = "- reflectie verslag van irritante webpagine af";
 }
 
 function week51() {
-    planma.innerHTML = "- C# opdrachten maken";
-    donema.innerHTML = "-";
-    plandi.innerHTML = "-";
-    donedi.innerHTML = "-";
-    planwo.innerHTML = "-";
-    donewo.innerHTML = "-";
-    plando.innerHTML = "-";
-    donedo.innerHTML = "-";
-    planvr.innerHTML = "-";
-    donevr.innerHTML = "-";
+    planmon.innerHTML = "- C# opdrachten maken";
+    donemon.innerHTML = "-";
+    plantue.innerHTML = "-";
+    donetue.innerHTML = "-";
+    planwed.innerHTML = "-";
+    donewed.innerHTML = "-";
+    planthu.innerHTML = "-";
+    donethu.innerHTML = "-";
+    planfri.innerHTML = "-";
+    donefri.innerHTML = "-";
 }
 
 function week52() {
-    planma.innerHTML = "- week52";
-    donema.innerHTML = "-";
-    plandi.innerHTML = "-";
-    donedi.innerHTML = "-";
-    planwo.innerHTML = "-";
-    donewo.innerHTML = "-";
-    plando.innerHTML = "-";
-    donedo.innerHTML = "-";
-    planvr.innerHTML = "-";
-    donevr.innerHTML = "-";
+    planmon.innerHTML = "- week52";
+    donemon.innerHTML = "-";
+    plantue.innerHTML = "-";
+    donetue.innerHTML = "-";
+    planwed.innerHTML = "-";
+    donewed.innerHTML = "-";
+    planthu.innerHTML = "-";
+    donethu.innerHTML = "-";
+    planfri.innerHTML = "-";
+    donefri.innerHTML = "-";
 }
 
 function week01() {
-    planma.innerHTML = "- week01";
-    donema.innerHTML = "-";
-    plandi.innerHTML = "-";
-    donedi.innerHTML = "-";
-    planwo.innerHTML = "-";
-    donewo.innerHTML = "-";
-    plando.innerHTML = "-";
-    donedo.innerHTML = "-";
-    planvr.innerHTML = "-";
-    donevr.innerHTML = "-";
+    planmon.innerHTML = "- week01";
+    donemon.innerHTML = "-";
+    plantue.innerHTML = "-";
+    donetue.innerHTML = "-";
+    planwed.innerHTML = "-";
+    donewed.innerHTML = "-";
+    planthu.innerHTML = "-";
+    donethu.innerHTML = "-";
+    planfri.innerHTML = "-";
+    donefri.innerHTML = "-";
 }
 
 function week02() {
-    planma.innerHTML = "- Met webgame beginnen";
-    donema.innerHTML = "- Base cookie clicker gemaakt";
-    plandi.innerHTML = "- Project updaten";
-    donedi.innerHTML = "- Project geupdate";
-    planwo.innerHTML = "- Js cat clicker updaten";
-    donewo.innerHTML = "- Js cat clicker geupdate";
-    plando.innerHTML = "- Css cat clicker updaten";
-    donedo.innerHTML = "- Css cat clicker geupdate";
-    planvr.innerHTML = "- Bug fixes cat clicker";
-    donevr.innerHTML = "- Fixed bugs cat clicker";
+    planmon.innerHTML = "- Met webgame beginnen";
+    donemon.innerHTML = "- Base cookie clicker gemaakt";
+    plantue.innerHTML = "- Project updaten";
+    donetue.innerHTML = "- Project geupdate";
+    planwed.innerHTML = "- Js cat clicker updaten";
+    donewed.innerHTML = "- Js cat clicker geupdate";
+    planthu.innerHTML = "- Css cat clicker updaten";
+    donethu.innerHTML = "- Css cat clicker geupdate";
+    planfri.innerHTML = "- Bug fixes cat clicker";
+    donefri.innerHTML = "- Fixed bugs cat clicker";
 }
 
 function week03() {
-    planma.innerHTML = "- Extra functies toevoegen cat clicker";
-    donema.innerHTML = "- Added the gold cat";
-    plandi.innerHTML = "- Nog meer dingen toevoegen aan cat clicker";
-    donedi.innerHTML = "-";
-    planwo.innerHTML = "-";
-    donewo.innerHTML = "-";
-    plando.innerHTML = "-";
-    donedo.innerHTML = "-";
-    planvr.innerHTML = "-";
-    donevr.innerHTML = "-";
+    planmon.innerHTML = "- Extra functies toevoegen cat clicker";
+    donemon.innerHTML = "- Added the gold cat";
+    plantue.innerHTML = "- Nog meer dingen toevoegen aan cat clicker";
+    donetue.innerHTML = "- Code geoptimaliseerd";
+    planwed.innerHTML = "- Alles reactive maken";
+    donewed.innerHTML = "- Alles reactive gemaakt";
+    planthu.innerHTML = "- Ziek";
+    donethu.innerHTML = "- Ziek";
+    planfri.innerHTML = "- Cat gold functie updaten";
+    donefri.innerHTML = "- added clicks pers second";
 }
 
 function week04() {
-    planma.innerHTML = "- week04";
-    donema.innerHTML = "-";
-    plandi.innerHTML = "-";
-    donedi.innerHTML = "-";
-    planwo.innerHTML = "-";
-    donewo.innerHTML = "-";
-    plando.innerHTML = "-";
-    donedo.innerHTML = "-";
-    planvr.innerHTML = "-";
-    donevr.innerHTML = "-";
+    planmon.innerHTML = "- Extra dingen toevoegen aan webgame";
+    donemon.innerHTML = "- Color pallet portfolio geupdate + logbook geupdate";
+    plantue.innerHTML = "-";
+    donetue.innerHTML = "-";
+    planwed.innerHTML = "-";
+    donewed.innerHTML = "-";
+    planthu.innerHTML = "-";
+    donethu.innerHTML = "-";
+    planfri.innerHTML = "-";
+    donefri.innerHTML = "-";
+}
+
+function week05() {
+    planmon.innerHTML = "- week05";
+    donemon.innerHTML = "-";
+    plantue.innerHTML = "-";
+    donetue.innerHTML = "-";
+    planwed.innerHTML = "-";
+    donewed.innerHTML = "-";
+    planthu.innerHTML = "-";
+    donethu.innerHTML = "-";
+    planfri.innerHTML = "-";
+    donefri.innerHTML = "-";
+}
+
+function week06() {
+    planmon.innerHTML = "- week06";
+    donemon.innerHTML = "-";
+    plantue.innerHTML = "-";
+    donetue.innerHTML = "-";
+    planwed.innerHTML = "-";
+    donewed.innerHTML = "-";
+    planthu.innerHTML = "-";
+    donethu.innerHTML = "-";
+    planfri.innerHTML = "-";
+    donefri.innerHTML = "-";
+}
+
+function week07() {
+    planmon.innerHTML = "- week07";
+    donemon.innerHTML = "-";
+    plantue.innerHTML = "-";
+    donetue.innerHTML = "-";
+    planwed.innerHTML = "-";
+    donewed.innerHTML = "-";
+    planthu.innerHTML = "-";
+    donethu.innerHTML = "-";
+    planfri.innerHTML = "-";
+    donefri.innerHTML = "-";
+}
+
+function week08() {
+    planmon.innerHTML = "- week08";
+    donemon.innerHTML = "-";
+    plantue.innerHTML = "-";
+    donetue.innerHTML = "-";
+    planwed.innerHTML = "-";
+    donewed.innerHTML = "-";
+    planthu.innerHTML = "-";
+    donethu.innerHTML = "-";
+    planfri.innerHTML = "-";
+    donefri.innerHTML = "-";
+}
+
+function week05() {
+    planmon.innerHTML = "- week05";
+    donemon.innerHTML = "-";
+    plantue.innerHTML = "-";
+    donetue.innerHTML = "-";
+    planwed.innerHTML = "-";
+    donewed.innerHTML = "-";
+    planthu.innerHTML = "-";
+    donethu.innerHTML = "-";
+    planfri.innerHTML = "-";
+    donefri.innerHTML = "-";
+}
+
+function week09() {
+    planmon.innerHTML = "- week09";
+    donemon.innerHTML = "-";
+    plantue.innerHTML = "-";
+    donetue.innerHTML = "-";
+    planwed.innerHTML = "-";
+    donewed.innerHTML = "-";
+    planthu.innerHTML = "-";
+    donethu.innerHTML = "-";
+    planfri.innerHTML = "-";
+    donefri.innerHTML = "-";
+}
+
+function week10() {
+    planmon.innerHTML = "- week10";
+    donemon.innerHTML = "-";
+    plantue.innerHTML = "-";
+    donetue.innerHTML = "-";
+    planwed.innerHTML = "-";
+    donewed.innerHTML = "-";
+    planthu.innerHTML = "-";
+    donethu.innerHTML = "-";
+    planfri.innerHTML = "-";
+    donefri.innerHTML = "-";
+}
+
+function week11() {
+    planmon.innerHTML = "- week11";
+    donemon.innerHTML = "-";
+    plantue.innerHTML = "-";
+    donetue.innerHTML = "-";
+    planwed.innerHTML = "-";
+    donewed.innerHTML = "-";
+    planthu.innerHTML = "-";
+    donethu.innerHTML = "-";
+    planfri.innerHTML = "-";
+    donefri.innerHTML = "-";
+}
+
+function week12() {
+    planmon.innerHTML = "- week13";
+    donemon.innerHTML = "-";
+    plantue.innerHTML = "-";
+    donetue.innerHTML = "-";
+    planwed.innerHTML = "-";
+    donewed.innerHTML = "-";
+    planthu.innerHTML = "-";
+    donethu.innerHTML = "-";
+    planfri.innerHTML = "-";
+    donefri.innerHTML = "-";
+}
+
+function week14() {
+    planmon.innerHTML = "- week14";
+    donemon.innerHTML = "-";
+    plantue.innerHTML = "-";
+    donetue.innerHTML = "-";
+    planwed.innerHTML = "-";
+    donewed.innerHTML = "-";
+    planthu.innerHTML = "-";
+    donethu.innerHTML = "-";
+    planfri.innerHTML = "-";
+    donefri.innerHTML = "-";
+}
+
+function week15() {
+    planmon.innerHTML = "- week15";
+    donemon.innerHTML = "-";
+    plantue.innerHTML = "-";
+    donetue.innerHTML = "-";
+    planwed.innerHTML = "-";
+    donewed.innerHTML = "-";
+    planthu.innerHTML = "-";
+    donethu.innerHTML = "-";
+    planfri.innerHTML = "-";
+    donefri.innerHTML = "-";
+}
+
+function week16() {
+    planmon.innerHTML = "- week16";
+    donemon.innerHTML = "-";
+    plantue.innerHTML = "-";
+    donetue.innerHTML = "-";
+    planwed.innerHTML = "-";
+    donewed.innerHTML = "-";
+    planthu.innerHTML = "-";
+    donethu.innerHTML = "-";
+    planfri.innerHTML = "-";
+    donefri.innerHTML = "-";
 }

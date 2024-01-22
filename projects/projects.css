@@ -1,11 +1,11 @@
 body {
-  background-color: #452c63;
+  background-color: #030637;
   font-family: Arial, Helvetica, sans-serif;
   color: white;
 }
 
 .navbar {
-  background-color: #7a5db6;
+  background-color: #3C0753;
   border-radius: 5px;
   overflow: hidden;
 }
@@ -19,7 +19,7 @@ body {
 }
 
 .topnav a:hover {
-  background-color: #513d78;
+  background-color: #3C0753;
   color: white;
 }
 
@@ -46,10 +46,7 @@ body {
   min-width: 20vw;
   max-height: 50%;
   max-width: 20vw;
-  background-color: #5d4c88;
-  border-bottom: solid black 3px;
-  border-left: solid black 3px;
-  border-right: solid black 3px;
+  background-color: #720455;
   border-radius: 5px;
 }
 .square {
@@ -63,12 +60,13 @@ body {
 .projectname {
   text-decoration: none;
   color: white;
-  font-size: 60%;
+  font-size: 80%;
 }
 .title {
-  border-top: solid black 3px;
-  border-bottom: solid black 3px;
-  background-color: #7a5db6;
+  border-top-left-radius:5px;
+  border-top-right-radius: 5px;
+  padding: 5%;
+  background-color: #910A67;
 }
 
 a {

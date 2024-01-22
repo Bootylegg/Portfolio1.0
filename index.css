@@ -1,11 +1,11 @@
 body {
-  background-color: #452c63;
+  background-color: #030637;
   font-family: Arial, Helvetica, sans-serif;
   color: white;
 }
 
 .navbar {
-  background-color: #7a5db6;
+  background-color: #3C0753;
   border-radius: 5px;
   overflow: hidden;
 }
@@ -19,7 +19,7 @@ body {
 }
 
 .topnav a:hover {
-  background-color: #513d78;
+  background-color: #3C0753;
   color: white;
 }
 
