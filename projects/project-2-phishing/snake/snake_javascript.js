@@ -15,7 +15,6 @@ var velocityY = 0
 
 var snakeBody = []
 
-
 var foodX
 var foodY
 
@@ -70,15 +69,15 @@ function update() {
         context.fillRect(snakeBody[i][0], snakeBody[i][1], blocksize, blocksize)
     }
 
-    if (snakeX < 0 || snakeX > cols * blocksize || snakeY < 0 || snakeY > rows * blocksize) {
+    if (snakeX < 0 || snakeX + blocksize > cols * blocksize || snakeY < 0 || snakeY + blocksize > rows * blocksize) {
         gameOver = true
-        alert("Snek is ded... oof! :P")
-    }
+        alert("Snek is ded... oof! (wall) :P")
+    } //against wall
 
     for (let i = 0; i < snakeBody.length; i++) {
         if (snakeX == snakeBody[i][0] && snakeY == snakeBody[i][1]) {
             gameOver = true
-            alert("Snek is ded... oof! :P")
+            alert("Snek is ded... oof! (self):P")
         }
     }
 }

@@ -6,23 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project 2</title>
 </head>
-<body>
+<body onload="splash()">
 <div class="flexstart">
     <div class="buttons">
-        <div class="buttontab"><a class="button" onclick="previousslide(), playMusic()"><img class="prev" src="pics/buttonLeft.png" alt="buttonL"></a></div>
-        <div class="buttontab"><a class="button" onclick="home(), playMusic()"><img class="prev" src="pics/button.png" alt="buttonH"></a></div>
-        <div class="buttontab"><a class="button" onclick="nextslide(), playMusic()"><img class="prev" src="pics/buttonRight.png" alt="buttonR"></a></div>
+        
     </div> 
    <div class="row">
-        <img Onclick="popup(),playMusic()" id="slide" src="pics/splashscreen.png" style="opacity: 0;">
+        <!-- <div Onclick="popup(),playMusic()" id="slide" style="opacity: 1; background-image: url('pic1.png');"></div> -->
+        <div Onclick="popup(),playMusic()" id="slide" style="background-image: url(splashscreen.png); opacity: 0;">
+            <div class="innerimg">
+                <div id="left" style="background-image: url('pics/buttonLeft.png');" class="buttontab" onclick="previousslide(), playMusic()"></div>
+                <div id="center" style="background-image: url('pics/button.png');" class="buttontab" onclick="home(), playMusic()"></div>
+                <div id="right" style="background-image: url('pics/buttonRight.png');" class="buttontab" onclick="nextslide(), playMusic()"></div>
+            </div>
+        </div>
     </div>
     <div class="choice">
         <button onclick="pic2choice1(),playMusic()" id="choice" style="opacity: 0;">choice 1</button>
         <button onclick="pic2choice2(),playMusic()" id="choice2" style="opacity: 0;">choice 2</button>
         <button onclick="pic2choice3(),playMusic()" id="choice3" style="opacity: 0;">choice 3</button>
     </div>
-    <a href="https://bootyleg.io/projects/project-2/breakout/">Breakout</a>
-    <a href="https://bootyleg.io/projects/project-2/snake/">Snake</a>
+    <a target="_blank" href="https://bootyleg.io/projects/project-2/breakout/">Breakout</a>
+    <a target="_blank" href="https://bootyleg.io/projects/project-2/snake/">Snake</a>
 </div>
 </body>
 <script src="sounds.js"></script>
