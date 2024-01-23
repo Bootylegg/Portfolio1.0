@@ -5,7 +5,7 @@ body {
 }
 
 .navbar {
-  background-color: #3C0753;
+  background-color: #150050;
   border-radius: 5px;
   overflow: hidden;
 }
@@ -19,7 +19,7 @@ body {
 }
 
 .topnav a:hover {
-  background-color: #3C0753;
+  background-color: #150050;
   color: white;
 }
 /* start site */
@@ -39,7 +39,7 @@ body {
 .weektab {
   height: 80vh;
   width: 10%;
-  background-color: #720455;
+  background-color: #150050;
   align-items: center;
   text-align: center;
   border-radius: 5px;
@@ -50,7 +50,7 @@ body {
 
 
 .weekbtn {
-  background-color: #910A67;
+  background-color: #202060;
   padding: 20%;
   margin: 5%;
   border-radius: 5px;
@@ -66,21 +66,26 @@ body {
   height: 80vh;
   width: 60vw;
   margin-left: 20vw;
-  background-color: #720455;
+  background-color: #150050;
 }
 
 .innerweek {
   display: flex;
   flex-direction: column;
   align-items: start;
-  background-color: #910A67;
+  background-color: #202060;
   margin: 1%;
-  min-height: 14.5vh;
+  height: 14.5vh;
   font-size: 2vh;
+  border-radius: 5px;
 }
 
 .weektext {
   font-size: 100%;
+}
+
+.innertext {
+  margin: 1%;
 }
 
 @media only screen and (max-width: 1080px) {

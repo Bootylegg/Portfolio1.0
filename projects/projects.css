@@ -5,7 +5,7 @@ body {
 }
 
 .navbar {
-  background-color: #3C0753;
+  background-color: #150050;
   border-radius: 5px;
   overflow: hidden;
 }
@@ -19,9 +19,10 @@ body {
 }
 
 .topnav a:hover {
-  background-color: #3C0753;
+  background-color: #150050;
   color: white;
 }
+/* start site */
 
 .flexstart {
   display: flex;
@@ -46,7 +47,7 @@ body {
   min-width: 20vw;
   max-height: 50%;
   max-width: 20vw;
-  background-color: #720455;
+  background-color: #150050;
   border-radius: 5px;
 }
 .square {
@@ -66,7 +67,7 @@ body {
   border-top-left-radius:5px;
   border-top-right-radius: 5px;
   padding: 5%;
-  background-color: #910A67;
+  background-color: #202060;
 }
 
 a {

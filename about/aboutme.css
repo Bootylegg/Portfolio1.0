@@ -5,7 +5,7 @@ body {
 }
 
 .navbar {
-  background-color: #3C0753;
+  background-color: #150050;
   border-radius: 5px;
   overflow: hidden;
 }
@@ -19,24 +19,22 @@ body {
 }
 
 .topnav a:hover {
-  background-color: #3C0753;
+  background-color: #150050;
   color: white;
 }
+/* start site */
 
-  .flexstart {
-    display: flex;
-    flex-direction: row;
-  }
-
-  .logoimg {
-    max-width: 30%;
-  }
-
-  .logo {
-    margin: 1%;
-    max-width: 90%;
-  }
-
-  .text {
-    max-width: 50%;
-  }
+.flexstart {
+  display: flex;
+  flex-direction: row;
+}
+.logoimg {
+  max-width: 30%;
+}
+.logo {
+  margin: 1%;
+  max-width: 90%;
+}
+.text {
+  max-width: 50%;
+}
