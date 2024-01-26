@@ -14,12 +14,12 @@ function week42() {
     donemon.innerHTML = "-";
     plantue.innerHTML = "-";
     donetue.innerHTML = "-";
-    planwed.innerHTML = "- Logboek maken met js van logboek beginnen";
-    donewed.innerHTML = "- Logboek is bijna af en js al af";
-    planthu.innerHTML = "- Laaste dingen van logboek maken";
-    donethu.innerHTML = "- Logboek is bijna af alleen nog iets meer responsive maken";
-    planfri.innerHTML = "- Site meer responsive maken";
-    donefri.innerHTML = "- Site meer responsive Gemaakt";
+    planwed.innerHTML = "- Starting work on logbook and starting with the Js";
+    donewed.innerHTML = "- Logbook and js almost finished ";
+    planthu.innerHTML = "- Finishing the logbook";
+    donethu.innerHTML = "- Made the logbook more responsive";
+    planfri.innerHTML = "- Making the site more responsive";
+    donefri.innerHTML = "- Made the site more responsive";
 }
 
 function week43() {
@@ -29,17 +29,17 @@ function week43() {
     donetue.innerHTML = "- No Info";
     planwed.innerHTML = "- No Info";
     donewed.innerHTML = "- No Info";
-    planthu.innerHTML = "- Projects pagina updaten";
-    donethu.innerHTML = "- Projects pagina geupdate";
+    planthu.innerHTML = "- Updating projects page";
+    donethu.innerHTML = "- Updating project page";
     planfri.innerHTML = "- No Info";
     donefri.innerHTML = "- No Info";
 }
 
 function week44() {
-    planmon.innerHTML = "- Kleuren aanpassen site";
-    donemon.innerHTML = "- Kleuren van grijs naar paars veranderd";
-    plantue.innerHTML = "- About me maken";
-    donetue.innerHTML = "- About me gemaakt en logbook geupdate";
+    planmon.innerHTML = "- Choose other color scheme";
+    donemon.innerHTML = "- Changed colors from gray to purple";
+    plantue.innerHTML = "- Making a about me page";
+    donetue.innerHTML = "- Made the about me page and updated the logbook";
     planwed.innerHTML = "- No Info";
     donewed.innerHTML = "- No Info";
     planthu.innerHTML = "- No Info";
@@ -62,7 +62,7 @@ function week45() {
 }
 
 function week46() {
-    planmon.innerHTML = "- Mappen structuur updaten en laaste puntjes op de i zetten";
+    planmon.innerHTML = "- No Info";
     donemon.innerHTML = "- No Info";
     plantue.innerHTML = "- No Info";
     donetue.innerHTML = "- No Info";
@@ -88,7 +88,7 @@ function week47() {
 }
 
 function week48() {
-    planmon.innerHTML = "- Met reflexie verslag beginnen";
+    planmon.innerHTML = "- No Info";
     donemon.innerHTML = "- No Info";
     plantue.innerHTML = "- No Info";
     donetue.innerHTML = "- No Info";
@@ -114,92 +114,92 @@ function week49() {
 }
 
 function week50() {
-    planmon.innerHTML = "- irritante website afmaken";
-    donemon.innerHTML = "- irritante website is bijna af";
-    plantue.innerHTML = "- laatste puntjes op de i zetten bij website";
-    donetue.innerHTML = "- irritante website klaar";
-    planwed.innerHTML = "- reflectie verslagen maken ";
-    donewed.innerHTML = "- reflectie verslag van portfolio af";
-    planthu.innerHTML = "- met engels verder";
-    donethu.innerHTML = "- engels verder gemaakt";
-    planfri.innerHTML = "- refectie verslag van irritante webpagina maken";
-    donefri.innerHTML = "- reflectie verslag van irritante webpagine af";
+    planmon.innerHTML = "- Finishing 'irritante website'";
+    donemon.innerHTML = "- 'Irritante website' is almost done";
+    plantue.innerHTML = "- Adding the last touches to the website";
+    donetue.innerHTML = "- 'Irritante website' is done";
+    planwed.innerHTML = "- Make a reflection report";
+    donewed.innerHTML = "- Finished the portfolio reflection report";
+    planthu.innerHTML = "- Doing english homework";
+    donethu.innerHTML = "- Made english homework";
+    planfri.innerHTML = "- Make a reflection report about the 'irritante webpagina'";
+    donefri.innerHTML = "- Made a reflection report about the 'irritante webpagina'";
 }
 
 function week51() {
-    planmon.innerHTML = "- C# opdrachten maken";
-    donemon.innerHTML = "-";
-    plantue.innerHTML = "-";
-    donetue.innerHTML = "-";
-    planwed.innerHTML = "-";
-    donewed.innerHTML = "-";
-    planthu.innerHTML = "-";
-    donethu.innerHTML = "-";
-    planfri.innerHTML = "-";
-    donefri.innerHTML = "-";
+    planmon.innerHTML = "- No info (dont remember)";
+    donemon.innerHTML = "- No info (dont remember)";
+    plantue.innerHTML = "- No info (dont remember)";
+    donetue.innerHTML = "- No info (dont remember)";
+    planwed.innerHTML = "- No info (dont remember)";
+    donewed.innerHTML = "- No info (dont remember)";
+    planthu.innerHTML = "- No info (dont remember)";
+    donethu.innerHTML = "- No info (dont remember)";
+    planfri.innerHTML = "- No info (dont remember)";
+    donefri.innerHTML = "- No info (dont remember)";
 }
 
 function week52() {
-    planmon.innerHTML = "- week52";
-    donemon.innerHTML = "-";
-    plantue.innerHTML = "-";
-    donetue.innerHTML = "-";
-    planwed.innerHTML = "-";
-    donewed.innerHTML = "-";
-    planthu.innerHTML = "-";
-    donethu.innerHTML = "-";
-    planfri.innerHTML = "-";
-    donefri.innerHTML = "-";
+    planmon.innerHTML = "- Vacation";
+    donemon.innerHTML = "- Vacation";
+    plantue.innerHTML = "- Vacation";
+    donetue.innerHTML = "- Vacation";
+    planwed.innerHTML = "- Vacation";
+    donewed.innerHTML = "- Vacation";
+    planthu.innerHTML = "- Vacation";
+    donethu.innerHTML = "- Vacation";
+    planfri.innerHTML = "- Vacation";
+    donefri.innerHTML = "- Vacation";
 }
 
 function week01() {
-    planmon.innerHTML = "- week01";
-    donemon.innerHTML = "-";
-    plantue.innerHTML = "-";
-    donetue.innerHTML = "-";
-    planwed.innerHTML = "-";
-    donewed.innerHTML = "-";
-    planthu.innerHTML = "-";
-    donethu.innerHTML = "-";
-    planfri.innerHTML = "-";
-    donefri.innerHTML = "-";
+    planmon.innerHTML = "-Vacation";
+    donemon.innerHTML = "-Vacation";
+    plantue.innerHTML = "-Vacation";
+    donetue.innerHTML = "-Vacation";
+    planwed.innerHTML = "-Vacation";
+    donewed.innerHTML = "-Vacation";
+    planthu.innerHTML = "-Vacation";
+    donethu.innerHTML = "-Vacation";
+    planfri.innerHTML = "-Vacation";
+    donefri.innerHTML = "-Vacation";
 }
 
 function week02() {
-    planmon.innerHTML = "- Met webgame beginnen";
-    donemon.innerHTML = "- Base cookie clicker gemaakt";
-    plantue.innerHTML = "- Project updaten";
-    donetue.innerHTML = "- Project geupdate";
-    planwed.innerHTML = "- Js cat clicker updaten";
-    donewed.innerHTML = "- Js cat clicker geupdate";
-    planthu.innerHTML = "- Css cat clicker updaten";
-    donethu.innerHTML = "- Css cat clicker geupdate";
+    planmon.innerHTML = "- Make a webgame";
+    donemon.innerHTML = "- Made a cookie clicker";
+    plantue.innerHTML = "- Update project";
+    donetue.innerHTML = "- Updated Project";
+    planwed.innerHTML = "- Update Js cat clicker";
+    donewed.innerHTML = "- Updated Js cat clicker";
+    planthu.innerHTML = "- Update Css cat clicker";
+    donethu.innerHTML = "- Updated Css cat clicker";
     planfri.innerHTML = "- Bug fixes cat clicker";
     donefri.innerHTML = "- Fixed bugs cat clicker";
 }
 
 function week03() {
-    planmon.innerHTML = "- Extra functies toevoegen cat clicker";
+    planmon.innerHTML = "- Add funtions to cat clicker";
     donemon.innerHTML = "- Added the gold cat";
-    plantue.innerHTML = "- Nog meer dingen toevoegen aan cat clicker";
-    donetue.innerHTML = "- Code geoptimaliseerd";
-    planwed.innerHTML = "- Alles reactive maken";
-    donewed.innerHTML = "- Alles reactive gemaakt";
-    planthu.innerHTML = "- Ziek";
-    donethu.innerHTML = "- Ziek";
-    planfri.innerHTML = "- Cat gold functie updaten";
-    donefri.innerHTML = "- added clicks pers second";
+    plantue.innerHTML = "- Add mroe stuff to cat clicker";
+    donetue.innerHTML = "- Optimized code";
+    planwed.innerHTML = "- Making cat clicker reactive";
+    donewed.innerHTML = "- Made cat clicker reative";
+    planthu.innerHTML = "- Sick";
+    donethu.innerHTML = "- Sick";
+    planfri.innerHTML = "- Update cat gold function";
+    donefri.innerHTML = "- Added clicks pers second";
 }
 
 function week04() {
-    planmon.innerHTML = "- Extra dingen toevoegen aan webgame";
-    donemon.innerHTML = "- Color pallet portfolio geupdate + logbook geupdate";
-    plantue.innerHTML = "-";
-    donetue.innerHTML = "-";
-    planwed.innerHTML = "-";
-    donewed.innerHTML = "-";
-    planthu.innerHTML = "-";
-    donethu.innerHTML = "-";
+    planmon.innerHTML = "- Add more things to catclicker";
+    donemon.innerHTML = "- Updated color scheme main site";
+    plantue.innerHTML = "- Update projects page";
+    donetue.innerHTML = "- Started on updating projects page";
+    planwed.innerHTML = "- Sick";
+    donewed.innerHTML = "- Sick";
+    planthu.innerHTML = "- Update projects page";
+    donethu.innerHTML = "- Updated Projects page";
     planfri.innerHTML = "-";
     donefri.innerHTML = "-";
 }

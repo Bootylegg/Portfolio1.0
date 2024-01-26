@@ -27,49 +27,63 @@ body {
 .flexstart {
   display: flex;
   flex-direction: column;
-  align-items: center;
-}
-.project {
-  min-width: 90%;
-}
-.row {
-  display: flex;
-  flex-direction: row;
-  margin: 1%;
-  min-width: 30%;
-  min-height: 50%;
-}
-.tab {
-  text-align: center;
-  margin: 5%;
-  min-height: fit-content;
-  min-height: 50%;
-  min-width: 20vw;
-  max-height: 50%;
-  max-width: 20vw;
-  background-color: #150050;
-  border-radius: 5px;
-}
-.square {
-  min-width: 50%;
-  max-width: 90%;
-  margin: 1%;
-}
-.image{
-  max-width:30vw;
-}
-.projectname {
-  text-decoration: none;
-  color: white;
-  font-size: 80%;
-}
-.title {
-  border-top-left-radius:5px;
-  border-top-right-radius: 5px;
-  padding: 5%;
-  background-color: #202060;
 }
 
-a {
+.maincontainer {
+  display: flex;
+  flex-direction: column;
+  margin: 1%;
+}
+
+.leja {
+  display: flex;
+  flex-direction: row;
+  background-color: #150050;
+  width: 95vw;
+  height: 20%;
+}
+
+.peri {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  margin: 1%;
+  overflow-x: scroll;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #202060;
+  min-width: 160px;
+  min-height: 160px;
+  margin: 1%;
+  border-radius: 5px;
+}
+
+.title {
+  font-size: 95%;
+}
+
+.titlehref {
   text-decoration: none;
+  color: white;
+}
+
+.img {
+  height: 90px;
+  width: 90px;
+  background-repeat: no-repeat;
+}
+
+.Project-a {
+  color: white;
+  text-decoration: none;
+  margin: 1%;
+}
+
+@media only screen and (max-width: 1080px) {
+  .peri{flex-direction: column; max-height: 50vh; overflow-y: scroll;}
 }

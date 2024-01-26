@@ -13,11 +13,28 @@ let price25 = document.getElementById("price25")
 let height = document.getElementById("goldcat").offsetHeight
 let width = document.getElementById("goldcat").offsetWidth
 
+let gif = document.getElementById("left")
+let gif2 = document.getElementById("flexstart")
+
 let cpsnum = 0 
 let extraclick = 1
 
 var audio = new Audio('meow.mp3')
 var audio2 = new Audio('yippee.mp3')
+
+function backgroundbody() {
+    gif2.style.backgroundImage = "url('firework.gif')"
+    setTimeout(() => {
+        gif2.style.backgroundImage = "url('')"
+    }, 5500);
+}
+
+function backgroundleft() {
+    gif.style.backgroundImage = "url('maxwell-cat.gif')"
+    setTimeout(() => {
+        gif.style.backgroundImage = "url('')"
+    }, 5500);
+}
 
 function cpsconvert() {
     document.getElementById("totalcps").innerHTML = cpsnum.toFixed(2)
@@ -59,6 +76,8 @@ function add1click() {
         document.getElementById("bought1").innerHTML++
         setInterval(plus1, 1000)
         price1.innerHTML = Math.round(price1.innerHTML * 1.1)
+        backgroundleft()
+        backgroundbody()
     }
 }
 
@@ -71,6 +90,8 @@ function add10click() {
         document.getElementById("bought10").innerHTML++
         setInterval(plus10, 2000)
         price10.innerHTML = Math.round(price10.innerHTML * 1.2)
+        backgroundleft()
+        backgroundbody()
     }
 }
 
@@ -83,6 +104,8 @@ function add25click() {
         document.getElementById("bought25").innerHTML++
         setInterval(plus25, 4000)
         price25.innerHTML = Math.round(price25.innerHTML * 1.3)
+        backgroundleft()
+        backgroundbody()
     }
 }
 
@@ -95,6 +118,8 @@ function add50click() {
         document.getElementById("bought50").innerHTML++
         setInterval(plus50, 6000)
         price50.innerHTML = Math.round(price50.innerHTML * 1.4)
+        backgroundleft()
+        backgroundbody()
     }
 }
 
@@ -111,6 +136,8 @@ function addclick() {
         counter()
         document.getElementById("boughtclick").innerHTML++
         priceclick.innerHTML = Math.round(priceclick.innerHTML * 1.5)
+        backgroundleft()
+        backgroundbody()
     }
 }
 

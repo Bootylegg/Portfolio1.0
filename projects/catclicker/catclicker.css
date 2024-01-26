@@ -9,6 +9,7 @@ body {
     flex-direction: row;
     margin: 3%;
     margin-left: 0.5%;
+    background-size: cover;
 }
 
 .left {
@@ -22,6 +23,7 @@ body {
     border-radius: 5px;
     border: #C63D2F 3px solid;
     margin-right: 0.5%;
+    background-size: cover;
 }
 
 .right {
