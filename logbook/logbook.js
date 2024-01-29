@@ -200,8 +200,8 @@ function week04() {
     donewed.innerHTML = "- Sick";
     planthu.innerHTML = "- Update projects page";
     donethu.innerHTML = "- Updated Projects page";
-    planfri.innerHTML = "-";
-    donefri.innerHTML = "-";
+    planfri.innerHTML = "- Adding random things to logbook";
+    donefri.innerHTML = "- Added fireworks and spinning cat";
 }
 
 function week05() {
