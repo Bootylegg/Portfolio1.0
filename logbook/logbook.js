@@ -205,8 +205,8 @@ function week04() {
 }
 
 function week05() {
-    planmon.innerHTML = "- week05";
-    donemon.innerHTML = "-";
+    planmon.innerHTML = "- Finishing site for Kim";
+    donemon.innerHTML = "- Finished site for Kim";
     plantue.innerHTML = "-";
     donetue.innerHTML = "-";
     planwed.innerHTML = "-";
