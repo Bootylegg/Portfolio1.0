@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 2</title>
+</head>
+<body onload="splash()">
+<div class="flexstart">
+    <div class="buttons">
+        
+    </div> 
+   <div class="row">
+        <!-- <div Onclick="popup(),playMusic()" id="slide" style="opacity: 1; background-image: url('pic1.png');"></div> -->
+        <div Onclick="popup(),playMusic()" id="slide" style="background-image: url(splashscreen_kleur.png); opacity: 0;">
+            <div class="innerimg">
+                <div id="left" style="background-image: url('pics/buttonLeft.png');" class="buttontab" onclick="previousslide(), playMusic()"></div>
+                <div id="center" style="background-image: url('pics/button.png');" class="buttontab" onclick="home(), playMusic()"></div>
+                <div id="right" style="background-image: url('pics/buttonRight.png');" class="buttontab" onclick="nextslide(), playMusic()"></div>
+            </div>
+            <div id="font" class="text">
+                <p id="text">Henk komt net thuis van zijn opleiding. Hij loopt naar boven en gaat achter zijn laptop zitten om zijn mail te checken. Hij opent de eerste mail die hij ziet</p>
+            </div>
+        </div>
+    </div>
+    <div class="choice">
+        <button onclick="pic2choice1(),playMusic()" id="choice" style="opacity: 0;">choice 1</button>
+        <button onclick="pic2choice2(),playMusic()" id="choice2" style="opacity: 0;">choice 2</button>
+        <button onclick="pic2choice3(),playMusic()" id="choice3" style="opacity: 0;">choice 3</button>
+    </div>
+    <a target="_blank" href="https://bootyleg.io/projects/project-2/breakout/">Breakout</a>
+    <a target="_blank" href="https://bootyleg.io/projects/project-2/snake/">Snake</a>
+</div>
+</body>
+<script src="sounds.js"></script>
+<script src="slideshow.js"></script>
+</html>

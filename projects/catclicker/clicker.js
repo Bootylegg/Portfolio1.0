@@ -191,3 +191,46 @@ function goldcat() {
         }, 2500);
     }
 }
+
+// stock market randomly generated numbers from -10 to +10 
+// 1 item costs (price) and if player buys at -5 sells at +3 do x8
+
+// const market = [500,1000,1500,2500,3000,3500,4000,4500,5000,5500]
+// let setmarketprice = 1000
+
+// let setprice = document.getElementById("marketprice")
+
+// function updateprice() {
+//     setprice.innerHTML = setmarketprice
+// }
+
+// function randommarket() {
+//     setmarketprice = 1000
+//     let randomprice = market[Math.floor(Math.random() * 10)]
+//     setmarketprice = (setmarketprice += randomprice)
+//     setprice.innerHTML = setmarketprice
+//     if(market == 500) {
+//         console.log("im 0")
+//     } else if(market == 1000) {
+//         console.log("im 1")
+//     } else if(market == 1500) {
+//         console.log("im 2")
+//     } else if(market == 2000) {
+//         console.log("im 3")
+//     } else if(market == 2500) {
+//         console.log("im 4")
+//     } else if(market == 3000) {
+//         console.log("im 5")
+//     } else if(market == 3500) {
+//         console.log("im 6")
+//     } else if(market == 4000) {
+//         console.log("im 7")
+//     } else if(market == 4500) {
+//         console.log("im 8")
+//     } else if(market == 5000) {
+//         console.log("im 9")
+//     } else if(market == 5500) {
+//         console.log("im 10")
+//     }
+// }
+
