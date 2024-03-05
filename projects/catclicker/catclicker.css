@@ -129,3 +129,35 @@ body {
 .clickclick {
     margin-top: 25%;
 }
+
+/* .vid {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 200px;
+} */
+
+/* .vids {
+    width: 50%;
+} *.marketcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}  */
+
+.marketcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stockmarket {
+    background-color: #FF9B50;
+    border-radius: 5px;
+    border: #C63D2F 3px solid;
+    width: 40vw;
+    height: 70vh;
+    text-align: center;
+}
+

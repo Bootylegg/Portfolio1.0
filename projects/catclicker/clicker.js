@@ -21,15 +21,16 @@ let extraclick = 1
 
 var audio = new Audio('meow.mp3')
 var audio2 = new Audio('yippee.mp3')
+var audio3 = new Audio('upgrademeow.mp3')
 
-function backgroundbody() {
+function backgroundBody() {
     gif2.style.backgroundImage = "url('firework.gif')"
     setTimeout(() => {
         gif2.style.backgroundImage = "url('')"
     }, 5500);
 }
 
-function backgroundleft() {
+function backgroundLeft() {
     gif.style.backgroundImage = "url('maxwell-cat.gif')"
     setTimeout(() => {
         gif.style.backgroundImage = "url('')"
@@ -38,6 +39,7 @@ function backgroundleft() {
 
 function cpsconvert() {
     document.getElementById("totalcps").innerHTML = cpsnum.toFixed(2)
+    // to fixed to makes it a string
 }
 
 function counter(){
@@ -68,16 +70,18 @@ function clicky() {
 }
 
 function add1click() {
+    audio3.play
     if(clickcount >= price1.innerHTML) {
         clickcount -= price1.innerHTML
         cpsnum++
+        audio3.play()
         cpsconvert()
         counter()
         document.getElementById("bought1").innerHTML++
         setInterval(plus1, 1000)
         price1.innerHTML = Math.round(price1.innerHTML * 1.1)
-        backgroundleft()
-        backgroundbody()
+        backgroundLeft()
+        backgroundBody()
     }
 }
 
@@ -85,13 +89,14 @@ function add10click() {
     if(clickcount >= price10.innerHTML) {
         clickcount -= price10.innerHTML
         cpsnum += 5
+        audio3.play()
         cpsconvert()
         counter()
         document.getElementById("bought10").innerHTML++
         setInterval(plus10, 2000)
         price10.innerHTML = Math.round(price10.innerHTML * 1.2)
-        backgroundleft()
-        backgroundbody()
+        backgroundLeft()
+        backgroundBody()
     }
 }
 
@@ -99,13 +104,14 @@ function add25click() {
     if(clickcount >= price25.innerHTML) {
         clickcount -= price25.innerHTML
         cpsnum += 6.25
+        audio3.play()
         cpsconvert()
         counter()
         document.getElementById("bought25").innerHTML++
         setInterval(plus25, 4000)
         price25.innerHTML = Math.round(price25.innerHTML * 1.3)
-        backgroundleft()
-        backgroundbody()
+        backgroundLeft()
+        backgroundBody()
     }
 }
 
@@ -114,12 +120,13 @@ function add50click() {
         clickcount -= price50.innerHTML
         counter()
         cpsnum += 8.33
+        audio3.play()
         cpsconvert()
         document.getElementById("bought50").innerHTML++
         setInterval(plus50, 6000)
         price50.innerHTML = Math.round(price50.innerHTML * 1.4)
-        backgroundleft()
-        backgroundbody()
+        backgroundLeft()
+        backgroundBody()
     }
 }
 
@@ -130,14 +137,15 @@ function clickperupdate() {
 function addclick() {
     if(clickcount >= priceclick.innerHTML)  {
         extraclick++
+        audio3.play()
         clickperupdate()
         clickplus++
         clickcount -= priceclick.innerHTML
         counter()
         document.getElementById("boughtclick").innerHTML++
         priceclick.innerHTML = Math.round(priceclick.innerHTML * 1.5)
-        backgroundleft()
-        backgroundbody()
+        backgroundLeft()
+        backgroundBody()
     }
 }
 
@@ -195,42 +203,53 @@ function goldcat() {
 // stock market randomly generated numbers from -10 to +10 
 // 1 item costs (price) and if player buys at -5 sells at +3 do x8
 
-// const market = [500,1000,1500,2500,3000,3500,4000,4500,5000,5500]
-// let setmarketprice = 1000
+let setprice = document.getElementById("marketprice")
 
-// let setprice = document.getElementById("marketprice")
+const market = [500,1000,1500,2500,3000,3500,4000,4500,5000,5500]
+let marketsave
 
-// function updateprice() {
-//     setprice.innerHTML = setmarketprice
-// }
+let randomprice = market[Math.floor(Math.random() * 10)]
 
-// function randommarket() {
-//     setmarketprice = 1000
-//     let randomprice = market[Math.floor(Math.random() * 10)]
-//     setmarketprice = (setmarketprice += randomprice)
-//     setprice.innerHTML = setmarketprice
-//     if(market == 500) {
-//         console.log("im 0")
-//     } else if(market == 1000) {
-//         console.log("im 1")
-//     } else if(market == 1500) {
-//         console.log("im 2")
-//     } else if(market == 2000) {
-//         console.log("im 3")
-//     } else if(market == 2500) {
-//         console.log("im 4")
-//     } else if(market == 3000) {
-//         console.log("im 5")
-//     } else if(market == 3500) {
-//         console.log("im 6")
-//     } else if(market == 4000) {
-//         console.log("im 7")
-//     } else if(market == 4500) {
-//         console.log("im 8")
-//     } else if(market == 5000) {
-//         console.log("im 9")
-//     } else if(market == 5500) {
-//         console.log("im 10")
-//     }
-// }
+function updateprice() {
+    setprice.innerHTML = setmarketprice
+}
 
+function randommarket() {
+    setmarketprice = 1000
+    console.log("randomMarket", randomprice)
+    setmarketprice = (setmarketprice += randomprice)
+    setprice.innerHTML = setmarketprice 
+    console.log("market price =",setmarketprice)
+    setprice = document.getElementById("marketprice")
+}
+
+function marketcheck() {
+    if(clickcount >= setmarketprice){
+        clickcount -= setmarketprice
+        counter()
+        if(randomprice == 500) {
+            let marketsave = 0
+        } else if(randomprice == 1000) {
+            marketsave = 1
+        } else if(randomprice == 1500) {
+            marketsave = 2
+        } else if(randomprice == 2000) {
+            marketsave = 3
+        } else if(randomprice == 2500) {
+            marketsave = 4
+        } else if(randomprice == 3000) {
+            marketsave = 5
+        } else if(randomprice == 3500) {
+            marketsave = 6
+        } else if(randomprice == 4000) {
+            marketsave = 7
+        } else if(randomprice == 4500) {
+            marketsave = 8
+        } else if(randomprice == 5000) {
+            marketsave = 9
+        } else if(randomprice == 5500) {
+            marketsave = 10
+        }
+    }
+    console.log("im ",marketsave, " randomprice = ",randomprice,)
+}

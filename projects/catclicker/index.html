@@ -7,10 +7,15 @@
     <link rel="stylesheet" href="catclicker.css">
 </head>
 <body>
+    <!-- <div class="vid">
+        <video class="vids" controls>
+            <source src="yapping.mp4">
+        </video>
+    </div> -->
     <div id="flexstart" class="flexstart">
         <div id="left" class="left">
             <div class="box">
-                <div class="total">Currency: <span id="clicknumber">0</span></div>
+                <div class="total">Catbux: <span id="clicknumber">0</span></div>
                 <div class="titel"><h1 class="buy">Buy Items</h1></div>
                 <div onclick="add1click()" class="row"><div class="rowtext">clicker 1 price: </div><span class="price" id="price1">15</span>Bought: <span id="bought1">0</span></div>
                 <div onclick="add10click()" class="row"><div class="rowtext">clicker 10 price: </div><span class="price" id="price10">100</span>Bought: <span class="bought" id="bought10">0</span></div>
@@ -43,6 +48,11 @@
             </div>
         </div>
     </div>
+    <div class="marketcontainer">
+        <div class="stockmarket">
+            <div onclick="marketcheck()" class="row"><p>Buy 1 stock for: <span id="marketprice">0</span> Catbux</p></div>
+            <div onclick="randommarket()" class="row">generate randomness</div>
+        </div>
 </body>
 <script src="clicker.js"></script>
 </html>
