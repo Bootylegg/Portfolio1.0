@@ -256,38 +256,25 @@ function week08() {
     donefri.innerHTML = "- Vacation";
 }
 
-function week05() {
-    planmon.innerHTML = "-";
-    donemon.innerHTML = "-";
-    plantue.innerHTML = "-";
-    donetue.innerHTML = "-";
-    planwed.innerHTML = "-";
-    donewed.innerHTML = "-";
-    planthu.innerHTML = "-";
-    donethu.innerHTML = "-";
-    planfri.innerHTML = "-";
-    donefri.innerHTML = "-";
-}
-
 function week09() {
-    planmon.innerHTML = "- week09";
-    donemon.innerHTML = "-";
-    plantue.innerHTML = "-";
-    donetue.innerHTML = "-";
-    planwed.innerHTML = "-";
-    donewed.innerHTML = "-";
-    planthu.innerHTML = "-";
-    donethu.innerHTML = "-";
-    planfri.innerHTML = "-";
-    donefri.innerHTML = "-";
+    planmon.innerHTML = "-No info";
+    donemon.innerHTML = "-No info";
+    plantue.innerHTML = "-No info";
+    donetue.innerHTML = "-No info";
+    planwed.innerHTML = "-No info";
+    donewed.innerHTML = "-No info";
+    planthu.innerHTML = "-No info";
+    donethu.innerHTML = "-No info";
+    planfri.innerHTML = "-No info";
+    donefri.innerHTML = "-No info";
 }
 
 function week10() {
-    planmon.innerHTML = "- week10";
-    donemon.innerHTML = "-";
-    plantue.innerHTML = "-";
-    donetue.innerHTML = "-";
-    planwed.innerHTML = "-";
+    planmon.innerHTML = "- Started project";
+    donemon.innerHTML = "- Started project";
+    plantue.innerHTML = "- Starting on voice recognition";
+    donetue.innerHTML = "- Started on voice recognition";
+    planwed.innerHTML = "- Starting with js for project";
     donewed.innerHTML = "-";
     planthu.innerHTML = "-";
     donethu.innerHTML = "-";
