@@ -53,3 +53,12 @@ a {
     color: white;
     text-decoration: none;
 }
+
+.imgs {
+    display: flex;
+    flex-direction: row;
+}
+
+.imgpic {
+    width: 20vw;
+}
