@@ -4,7 +4,7 @@ var income = document.getElementById("inputPikmin")
 var union = document.getElementById("inputUnion")
 var time = document.getElementById("time")
 
-var audio = new Audio('pikmin.webm');
+var audio = new Audio('pikmin.mp3');
 
 function valuePrompt() {
     audio.play()
