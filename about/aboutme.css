@@ -2,13 +2,13 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  margin: 0.5%;
 }
 
 body {
   background-color: #030637;
   font-family: Arial, Helvetica, sans-serif;
   color: white;
+  margin: 0.5%;
 }
 
 .navbar {
@@ -36,6 +36,7 @@ body {
   flex-direction: row;
 }
 .logoimg {
+  margin-top: 5vh;
   max-width: 30%;
 }
 .logo {
@@ -43,5 +44,10 @@ body {
   max-width: 90%;
 }
 .text {
+  margin-top: 5vh;
   max-width: 50%;
+}
+
+.cv {
+  margin-top: 5vh;
 }
