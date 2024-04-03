@@ -71,6 +71,7 @@ body {
 }
 
 .title {
+  margin: 5%;
   font-size: 95%;
 }
 
@@ -80,8 +81,8 @@ body {
 }
 
 .img {
-  height: 90px;
-  width: 90px;
+  height: 75%;
+  width: 75%;
   background-repeat: no-repeat;
 }
 

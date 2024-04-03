@@ -58,7 +58,7 @@ body {
 
 .weekbtn {
   background-color: #202060;
-  padding: 20%;
+  padding: 35% 20%;
   margin: 5%;
   border-radius: 5px;
 }
@@ -101,7 +101,7 @@ body {
     display: flex;
     flex-direction: row;
     height: 10vh;
-    width: 95vw;
+    width: 95%;
     overflow-y: hidden;
     overflow-x: scroll;
   }
@@ -111,6 +111,6 @@ body {
     width: 95vw;
     margin-left: 0vw;
   }
-  .weekbtn {min-height: 90%; width: 15vw; padding: 10%; margin: 3vw;}
-  .weektext {font-size: 90%;}
+  .weekbtn {margin: 1vw; width: 25vw; }
+  .weektext {font-size: 100%;}
 }
