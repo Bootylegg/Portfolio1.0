@@ -1,5 +1,35 @@
-
-
+<!-- NEXT AND LAST STEP 
+- database aanmaken met procentsommen
+- de tabel met procentsommen krijg je van OSD via ItsLearning
+- wat hebben we nodig:
+  - een php-omgeving: XAMPP of een docker-omgeving
+  (straks doe ik het nog een keer voor)
+  - in onze phpMyAdmin-omgeving maken we een database aan;
+  een database bestaat uit tabellen, de tabel met procentsommen gaan
+  we importeren
+  - we moeten onze html-file ombouwen naar een php-file
+  - in die php-file moeten we aan connectie maken met de database
+  - vervolgens de database met (my)SQL bevragen
+  - de opgehaalde gegevens opmaken en in de HTML drukken
+-->
+<?php
+//regel 17, 19, 23, 25 en 27 zijn standaard
+include "db/dbconnection.class.php";
+//maak een nieuwe instantie aan van dbconnection
+$dbconnect = new dbconnection();
+//bouw een sql-statement waarmee je iets uit de database haalt
+$sql = "SELECT * FROM sommen";
+//prepare is een method uit de PDO-class; het is een tussenstap waarmee je veiligheid inbouwt
+$query = $dbconnect->prepare($sql);
+//execute is ook een method uit de PDO-class, de daadwerkelijke bevraging van de database
+$query->execute();
+//fetchAll is een method uit de PDO: trekt alle gevraagde data uit de database en zet hem in de array $recset
+$recset = $query->fetchAll();
+//om de ruwe data van je database-bevraging te laten zien
+echo "<pre>";
+print_r($recset);
+echo "</pre>";
+?>
 
 
 

@@ -1,9 +1,8 @@
 <?php
-
-class dbconnection extends PDO
+class Dbconnection extends PDO
 {
     private $host = "db";
-    private $dbname = "php-app";
+    private $dbname = "procentenrekentool";
     private $user = "USER";
     private $pass = "PASS";
     public function __construct()
