@@ -59,3 +59,15 @@
   .marginL {
     margin-left: 30vw ;
   }
+
+  .guesslist {
+    display: flex;
+    flex-direction: column;
+    max-width: 5vw;
+  }
+
+  #list {
+    max-width: 5vw;
+    max-height: 2vh;
+    overflow-y: scroll;
+  }

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>guess</title>
+    <link rel="stylesheet" href="guess.css">
+</head>
+<body>
+<div class="flexstart">
+    <div class="content">
+        <h1>letter guess</h1>
+        <button onclick="passwordGuess()">guess password</button>
+        <button onclick="instantMode()">instant mode</button>
+        <div class="input">
+            <p class="margin">input: </p>
+            <input placeholder="input password here" id="passwordInput" type="text">
+        </div>
+        <p id="passwordGuess"></p>
+        <p>all guesses: </p>
+        <div class="guessList">
+          <p id="list"></p>
+        </div>
+        <h1>number guess</h1>
+        <button onclick="numbGuess()">guess number</button>
+        <div class="input">
+            <p class="margin">input: </p>
+            <input placeholder="(up to 20k)" id="numberInput" type="number">
+        </div>
+        <p id="numberGuess"></p>
+        <div class="guessList">
+            <p id="numberList"></p>
+          </div>
+    </div>
+</div>
+</body>
+<script src="index.js"></script>
+</html>
