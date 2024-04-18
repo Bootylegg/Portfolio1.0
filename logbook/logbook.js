@@ -1,3 +1,5 @@
+let btn = document.querySelectorAll("weekbtn")
+
 let planmon = document.getElementById("planmon");
 let donemon = document.getElementById("donemon");
 let plantue = document.getElementById("plantue");
@@ -275,67 +277,67 @@ function week10() {
     plantue.innerHTML = "- Starting on voice recognition";
     donetue.innerHTML = "- Started on voice recognition";
     planwed.innerHTML = "- Starting with js for project";
-    donewed.innerHTML = "-";
-    planthu.innerHTML = "-";
-    donethu.innerHTML = "-";
-    planfri.innerHTML = "-";
-    donefri.innerHTML = "-";
+    donewed.innerHTML = "- No info";
+    planthu.innerHTML = "- No info";
+    donethu.innerHTML = "- No info";
+    planfri.innerHTML = "- No info";
+    donefri.innerHTML = "- No info";
 }
 
 function week11() {
-    planmon.innerHTML = "- week11";
-    donemon.innerHTML = "-";
-    plantue.innerHTML = "-";
-    donetue.innerHTML = "-";
-    planwed.innerHTML = "-";
-    donewed.innerHTML = "-";
-    planthu.innerHTML = "-";
-    donethu.innerHTML = "-";
-    planfri.innerHTML = "-";
-    donefri.innerHTML = "-";
+    planmon.innerHTML = "- No info";
+    donemon.innerHTML = "- No info";
+    plantue.innerHTML = "- No info";
+    donetue.innerHTML = "- No info";
+    planwed.innerHTML = "- No info";
+    donewed.innerHTML = "- No info";
+    planthu.innerHTML = "- No info";
+    donethu.innerHTML = "- No info";
+    planfri.innerHTML = "- No info";
+    donefri.innerHTML = "- No info";
 }
 
 function week12() {
-    planmon.innerHTML = "- week13";
-    donemon.innerHTML = "-";
-    plantue.innerHTML = "-";
-    donetue.innerHTML = "-";
-    planwed.innerHTML = "-";
-    donewed.innerHTML = "-";
-    planthu.innerHTML = "-";
-    donethu.innerHTML = "-";
-    planfri.innerHTML = "-";
-    donefri.innerHTML = "-";
+    planmon.innerHTML = "-No info";
+    donemon.innerHTML = "-No info";
+    plantue.innerHTML = "-No info";
+    donetue.innerHTML = "-No info";
+    planwed.innerHTML = "-No info";
+    donewed.innerHTML = "-No info";
+    planthu.innerHTML = "-No info";
+    donethu.innerHTML = "-No info";
+    planfri.innerHTML = "-No info";
+    donefri.innerHTML = "-No info";
 }
 
 function week14() {
-    planmon.innerHTML = "- week14";
-    donemon.innerHTML = "-";
-    plantue.innerHTML = "-";
-    donetue.innerHTML = "-";
-    planwed.innerHTML = "-";
-    donewed.innerHTML = "-";
-    planthu.innerHTML = "-";
-    donethu.innerHTML = "-";
-    planfri.innerHTML = "-";
-    donefri.innerHTML = "-";
+    planmon.innerHTML = "-No info";
+    donemon.innerHTML = "-No info";
+    plantue.innerHTML = "-No info";
+    donetue.innerHTML = "-No info";
+    planwed.innerHTML = "-No info";
+    donewed.innerHTML = "-No info";
+    planthu.innerHTML = "-No info";
+    donethu.innerHTML = "-No info";
+    planfri.innerHTML = "-No info";
+    donefri.innerHTML = "-No info";
 }
 
 function week15() {
-    planmon.innerHTML = "- week15";
-    donemon.innerHTML = "-";
-    plantue.innerHTML = "-";
-    donetue.innerHTML = "-";
-    planwed.innerHTML = "-";
-    donewed.innerHTML = "-";
-    planthu.innerHTML = "-";
-    donethu.innerHTML = "-";
-    planfri.innerHTML = "-";
-    donefri.innerHTML = "-";
+    planmon.innerHTML = "-No info";
+    donemon.innerHTML = "-No info";
+    plantue.innerHTML = "-No info";
+    donetue.innerHTML = "-No info";
+    planwed.innerHTML = "-No info";
+    donewed.innerHTML = "-No info";
+    planthu.innerHTML = "-No info";
+    donethu.innerHTML = "-No info";
+    planfri.innerHTML = "-No info";
+    donefri.innerHTML = "-No info";
 }
 
 function week16() {
-    planmon.innerHTML = "- week16";
+    planmon.innerHTML = "- Updating logbook again";
     donemon.innerHTML = "-";
     plantue.innerHTML = "-";
     donetue.innerHTML = "-";
