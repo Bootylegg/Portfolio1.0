@@ -1,4 +1,4 @@
-let btn = document.querySelectorAll("weekbtn")
+let btn = document.getElementById("weekbtn")
 
 let planmon = document.getElementById("planmon");
 let donemon = document.getElementById("donemon");
@@ -87,6 +87,7 @@ function week47() {
     donethu.innerHTML = "- No Info";
     planfri.innerHTML = "- No Info";
     donefri.innerHTML = "- No Info";
+    
 }
 
 function week48() {
