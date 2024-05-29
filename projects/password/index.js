@@ -42,6 +42,20 @@ function numbGuess() {
     }
 }
 
+let random = 0
+
+function numbRandom() {
+  random = Math.floor(Math.random() * parseInt(numberInput.value) + 1)
+  numberList.innerHTML += random + ' '
+  if(parseInt(numberInput.value) === random) {
+    alert("guessed")
+  } else {
+    setTimeout(() => {
+      numbRandom()
+    }, 0);
+  }
+}
+
 let passwordsArray; // Define passwordsArray in a broader scope
 
 function loadFile(url, callback) {
@@ -77,14 +91,22 @@ let index = 0; // Define an index variable to keep track of the current position
 
 function instantMode() {
   if (!passwordsArray) {
+    // If passwordsArray is not yet defined, wait and retry after a delay
     setTimeout(instantMode, 100);
     return;
   }
+
+  // Increment the index
   index++;
+
+  // Check if the index exceeds the array length and reset it if needed
   if (index >= passwordsArray.length) {
     index = 0;
   }
+
+  // Access the password at the updated index
   let randomP = passwordsArray[index];
+
   document.getElementById('passwordGuess').innerHTML = 'current guess: ' + randomP;
   document.getElementById('list').innerHTML += randomP + ' ';
   console.log(randomP)

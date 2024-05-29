@@ -3,6 +3,8 @@ var userInputUnion
 var income = document.getElementById("inputPikmin")
 var union = document.getElementById("inputUnion")
 var time = document.getElementById("time")
+var day = document.getElementById("days")
+let daytime
 
 var audio = new Audio('pikmin.mp3');
 
@@ -10,7 +12,24 @@ function valuePrompt() {
     audio.play()
     let value = (100000000000 / (income.value * union.value) / 60 / 60)
     time.innerHTML = value.toFixed(2)
+    daytime = value / 24
+    day.innerHTML = daytime.toFixed(2)
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 let opc = 0;
 let incrementInterval, decrementInterval;
