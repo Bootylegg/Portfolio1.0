@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Memory game</title>
+</head>
+<body onload="userBrowser()">
+
+    <!-- Header -->
+    <div class="header">
+        <div class="section hleft">
+            <button>HOME</button>
+            <button>INFO</button>
+            <button id="listen">listener start</button>
+        </div>
+        <div class="section hmid"><img src="img/logo.png" style="width:300px; height: 100px; margin-top: 1%;"></div>
+        <div class="section hright">
+            <button>GELUID</button>
+            <button>CREDIT</button>
+        </div>
+    </div>
+    <!-- Cards container -->
+    <div class="container">
+        <!-- Left Buttons -->
+        <div class="cleft">
+            <h1>PUNTEN</h1>
+            <div class="score"></div>
+        </div>
+        <!-- Cards -->
+        <div class="cmid">
+        <div id="1"  style="background-image: url(img/kaartje.png);" class="item">a1</div>
+        <div id="2"  style="background-image: url(img/kaartje.png);" class="item">a2</div>
+        <div id="3"  style="background-image: url(img/kaartje.png);" class="item">a3</div>
+        <div id="4"  style="background-image: url(img/kaartje.png);" class="item">a4</div>
+        <div id="5"  style="background-image: url(img/kaartje.png);" class="item">a5</div>
+        <div id="6"  style="background-image: url(img/kaartje.png);" class="item">a6</div>
+        <div id="7"  style="background-image: url(img/kaartje.png);" class="item">a7</div>
+        <div id="8"  style="background-image: url(img/kaartje.png);" class="item">a8</div>
+        <div id="9"  style="background-image: url(img/kaartje.png);"  class="item">b1</div>
+        <div id="10" style="background-image: url(img/kaartje.png);" class="item">b2</div>
+        <div id="11" style="background-image: url(img/kaartje.png);" class="item">b3</div>
+        <div id="12" style="background-image: url(img/kaartje.png);" class="item">b4</div>
+        <div id="13" style="background-image: url(img/kaartje.png);" class="item">b5</div>
+        <div id="14" style="background-image: url(img/kaartje.png);" class="item">b6</div>
+        <div id="15" style="background-image: url(img/kaartje.png);" class="item">b7</div>
+        <div id="16" style="background-image: url(img/kaartje.png);" class="item">b8</div>
+        <div id="17" style="background-image: url(img/kaartje.png);" class="item">c1</div>
+        <div id="18" style="background-image: url(img/kaartje.png);" class="item">c2</div>
+        <div id="19" style="background-image: url(img/kaartje.png);" class="item">c3</div>
+        <div id="20" style="background-image: url(img/kaartje.png);" class="item">c4</div>
+        <div id="21" style="background-image: url(img/kaartje.png);" class="item">c5</div>
+        <div id="22" style="background-image: url(img/kaartje.png);" class="item">c6</div>
+        <div id="23" style="background-image: url(img/kaartje.png);" class="item">c7</div>
+        <div id="24" style="background-image: url(img/kaartje.png);" class="item">c8</div>
+        <div id="25" style="background-image: url(img/kaartje.png);" class="item">d1</div>
+        <div id="26" style="background-image: url(img/kaartje.png);" class="item">d2</div>
+        <div id="27" style="background-image: url(img/kaartje.png);" class="item">d3</div>
+        <div id="28" style="background-image: url(img/kaartje.png);" class="item">d4</div>
+        <div id="29" style="background-image: url(img/kaartje.png);" class="item">d5</div>
+        <div id="30" style="background-image: url(img/kaartje.png);" class="item">d6</div>
+        <div id="31" style="background-image: url(img/kaartje.png);" class="item">d7</div>
+        <div id="32" style="background-image: url(img/kaartje.png);" class="item">d8</div></div>
+        <!-- Right buttons -->
+        <div class="cright">
+            <div class="out">
+                <p id="check" class="output"><em>...diagnostic messages</em></p>
+              </div>
+            <h1>PUNTEN</h1>
+            <div class="score"></div>
+        </div>
+      </div>
+</body>
+    <script src="speech.js"></script>
+    <script src="script.js"></script>
+</html>
