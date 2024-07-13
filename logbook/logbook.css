@@ -114,3 +114,7 @@ body {
   .weekbtn {margin: 1vw; width: 25vw; }
   .weektext {font-size: 100%;}
 }
+
+.purple {
+  background-color: #44447b;
+}

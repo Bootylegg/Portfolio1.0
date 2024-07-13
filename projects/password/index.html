@@ -10,13 +10,14 @@
 <div class="flexstart">
     <div class="content">
         <h1>letter guess</h1>
-        <p>(this takes a realy long time because math.random from array!)</p>
-        <button onclick="passwordGuess()">guess password</button>
-        <button onclick="instantMode()">instant mode</button>
+        <p>(this takes a really long time because math.random from array!)</p>
+        <p>(rockyou.txt mode is made by chatgpt because i dont know all that shit)</p>
         <div class="input">
             <p class="margin">input: </p>
             <input placeholder="input password here" id="passwordInput" type="text">
         </div>
+        <button onclick="passwordGuess()">guess password</button>
+        <button onclick="startInstantMode()">rockyou.txt</button>
         <p id="passwordGuess"></p>
         <p>all guesses: </p>
         <div class="guessList">
@@ -24,9 +25,10 @@
         </div>
         <h1>number guess</h1>
         <button onclick="numbGuess()">guess number</button>
+        <button onclick="numbRandom()">random guess</button>
         <div class="input">
             <p class="margin">input: </p>
-            <input placeholder="(up to 20k)" id="numberInput" type="number">
+            <input placeholder="Input number here" id="numberInput" type="number">
         </div>
         <p id="numberGuess"></p>
         <div class="guessList">
