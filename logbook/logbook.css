@@ -43,6 +43,41 @@ body {
   align-items: center;
 }
 
+.yeartab {
+  height: 80vh;
+  width: 10%;
+  background-color: #150050;
+  align-items: center;
+  text-align: center;
+  border-radius: 5px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  cursor: pointer;
+}
+
+.yeartab {
+  height: 80vh;
+  width: 10%;
+  background-color: #150050;
+  align-items: center;
+  text-align: center;
+  border-radius: 5px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  cursor: pointer;
+}
+
+.yearbtn {
+  background-color: #202060;
+  padding: 35% 20%;
+  margin: 5%;
+  border-radius: 5px;
+}
+
+.yearbtn:active {
+  transform: translateY(4px);
+}
+
 .weektab {
   height: 80vh;
   width: 10%;
@@ -67,6 +102,12 @@ body {
   transform: translateY(4px);
 }
 
+.yeartext {
+  font-size: 100%;
+  user-select: none;
+}
+
+
 .daytab {
   border-radius: 5px;
   height: fit-content;
@@ -89,6 +130,7 @@ body {
 
 .weektext {
   font-size: 100%;
+  user-select: none;
 }
 
 .innertext {
