@@ -147,14 +147,24 @@ body {
     overflow-y: hidden;
     overflow-x: scroll;
   }
+  .yeartab {
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+    width: 95%;
+    overflow-y: hidden;
+    overflow-x: scroll;
+  }
   .daytab{
     margin-top: 5%;
     height: fit-content;
     width: 95vw;
     margin-left: 0vw;
   }
-  .weekbtn {margin: 1vw; width: 25vw; }
+  .weekbtn {margin: 1vw; width: 25vw; height: 1vh; }
   .weektext {font-size: 100%;}
+  .yearbtn {margin: 1vw; width: 25vw; height: 1vh; }
+  .yeartext {font-size: 100%;}
 }
 
 .purple {
