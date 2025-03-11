@@ -14,11 +14,11 @@ function passwordGuess() {
                 if(randomTotal == pInput.value) {
                     alert("guessed")
                 } else {
-                        setTimeout(passwordGuess,0) // this is to prefent to much recursion errors
+                        setTimeout(passwordGuess,0) 
                 }
                 randomTotal = ""
             } else {
-                setTimeout(passwordGuess,0) // this is to prefent to much recursion errors
+                setTimeout(passwordGuess,0)
             }
 
 }
@@ -38,7 +38,7 @@ function numbGuess() {
         guessNumber = 0
     } else {
         guessNumber++
-        setTimeout(numbGuess,0) // this is to prefent to much recursion errors
+        setTimeout(numbGuess,0) 
     }
 }
 
@@ -56,7 +56,7 @@ function numbRandom() {
   }
 }
 
-let passwordsArray; // Define passwordsArray in a broader scope
+let passwordsArray; 
 
 function loadFile(url, callback) {
   var xhr = new XMLHttpRequest();
